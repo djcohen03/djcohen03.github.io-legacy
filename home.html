@@ -2,14 +2,30 @@
 <html>
 	<head>
 	    <title> Home </title>
+		<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+	    <script type="text/javascript">
+	    	// MARK: Firebase Initialization
+			var config = {
+				apiKey: "AIzaSyB2Joljxr_Veu5psV2SdGLhvsqJf6DFTlE",
+				authDomain: "tradetracking-66f5a.firebaseapp.com",
+				databaseURL: "https://tradetracking-66f5a.firebaseio.com",
+				storageBucket: "tradetracking-66f5a.appspot.com",
+				messagingSenderId: "1069435222179"
+			};
+			firebase.initializeApp(config);
+			var database = firebase.database(); // a reference to the database service
+
+			// MARK: my functions
+
+	    </script>
    </head>
 	<body>
 		<h1>Home</h1>
 		<br><br>
 
-		<a href="tradehistory.html"> Trade History </a>
-		<br>
 		<a href="opentrades.html"> Open Trades </a>
+		<br>
+		<a href="closedtrades.html"> Closed Trades </a>
 		<br>
 		<a href="index.html"> Logout </a>
 

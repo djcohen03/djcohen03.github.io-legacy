@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	    <title> Open Trades </title>
+	    <title> History </title>
 
 
 
@@ -27,16 +27,15 @@
 
 			// MARK: my functions
 			function saveTrade(trade, tid) {
-				database.ref('Open Trades/' + tid).set(trade);
+				database.ref('Closed Trades/' + tid).set(trade);
 			}
 
 
-			
 
-			
+
 
 			// MARK: Load Trades Into Table
-			var ref = firebase.database().ref('Open Trades/');
+			var ref = firebase.database().ref('Closed Trades/');
 			ref.on('value', function(snapshot) {
 
 
@@ -69,27 +68,32 @@
 					}
 				}
 			});	
-
-
+            
 
 
 
 		</script>
+
+		
+
+
 		<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-app.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-auth.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-database.js"></script>
 
+		<!-- Leave out Storage -->
+		<!-- <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-storage.js"></script> -->
 
 	</head>
 	<body>
 
-
 		<!-- MARK: Page Setup -->
-		<h1>Open Trades</h1>
+		<h1>Closed Trades</h1>
 		<br>
 		<a href="home.html"> Home </a>
 		<br><br>
 		<table style='width:75%' border = '1' id="TradeTable"></table>
+
 
 
 
@@ -107,7 +111,7 @@
 
 
 
-			// MARK: Trade Bank 
+        	// MARK: Trade bank
 			var condor1 = {Stock: 'SPY',
 						   Quantity: -20,
 						   "Long Put": 218,
@@ -117,7 +121,7 @@
 						   Underlying: 224,
 						   Maturity: "Jan-20-17",
 						   "Opening Price": -.48,
-						   Mark: -.35,
+						   "Closing Price": -.35,
 						   PnL: 260
 						};
 			var condor2 = {Stock: 'RUT',
@@ -129,16 +133,16 @@
 						   Underlying: 1360,
 						   Maturity: "Feb-17-17",
 						   "Opening Price": -3.65,
-						   Mark: -3.70,
+						   "Closing Price": -3.70,
 						   PnL: -20
 						};
 
-			var trades = [condor1,condor2];
+			saveTrade(condor1,1);
+			saveTrade(condor2,2);
+
 
         </script>
 		
-
-
 
 	</body>
 </html>
