@@ -21,18 +21,10 @@
 
 
 			// MARK: my functions
-
-
-
-
-
-			function addUserToDatabase(userId, fname, lname, email) {
-				database.ref('Users/' + userId).set({
-					Name: {First: fname,
-						   Last: lname},
-					Email: email,
-					Username: userId + "00",
-					"Password": "mypw"
+			function addUserToDatabase(username, pass) {
+				database.ref('Users/' + username).set({
+					Username: username,
+					"Password": pass
 				});
 			}
 
@@ -83,8 +75,9 @@
 
    </head>
 	<body>
+
+		<!-- MARK: Page Setup -->
 		<h1>Login</h1>
-		<!-- <form action="login.php" method="get"> -->
 		<form >
 			<fieldset style='width:40%'>
 				Username:
@@ -95,10 +88,20 @@
 				<br>
 				<input type = "button" onclick="checkIfUser()" value="Submit">
 			</fieldset>
-
-		
 		</form>
 		<br>
+
+
+
+		<script>
+			// MARK: Populate user authetication database
+			addUserToDatabase("david","pass");
+			addUserToDatabase("tripod","tripod");
+			addUserToDatabase("admin","pass");
+
+		</script>
+
+
 
 
 

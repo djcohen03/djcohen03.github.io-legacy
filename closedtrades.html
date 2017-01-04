@@ -43,29 +43,60 @@
 				var table = document.getElementById("TradeTable");
 				
 				// Create table header
-				var header = table.createTHead();		//
-				var row = header.insertRow(0);     		//
-				var j = 0;								// j column index
-				for(var cat in 	snapshot.val()[1]){
-					var cell = row.insertCell(j++);
-					cell.innerHTML = cat.bold();
-				}
+				var header = table.createTHead();		
+				var row = header.insertRow(0);     		
+				// Define Columns
+				var cell = row.insertCell(0);
+				cell.innerHTML = "Stock".bold();
+				var cell = row.insertCell(1);
+				cell.innerHTML = 'Quantity'.bold();
+				var cell = row.insertCell(2);
+				cell.innerHTML = 'Long Put'.bold();
+				var cell = row.insertCell(3);
+				cell.innerHTML = 'Short Put'.bold();
+				var cell = row.insertCell(4);
+				cell.innerHTML = 'Short Call'.bold();
+				var cell = row.insertCell(5);
+				cell.innerHTML = 'Long Call'.bold();
+				var cell = row.insertCell(6);
+				cell.innerHTML = 'Maturity'.bold();
+				var cell = row.insertCell(7);
+				cell.innerHTML = 'Opening Price'.bold();
+				var cell = row.insertCell(8);
+				cell.innerHTML = 'Closing Price'.bold();
+				var cell = row.insertCell(9);
+				cell.innerHTML = 'PnL'.bold();
 
 
-				// Populate Table with trade info
+								// Populate Table with trade info
 				// (loop through trades)
-				var k = 1;								// row index: j
+				var k = 1;								// row index: k
 				for(var i in snapshot.val()){
 					
 					var trade = snapshot.val()[i];  	// trade id: i
 					var row   = table.insertRow(k++);	// Create the kth empty row, add it to the table:
 
-					// Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
-					var j = 0;
-					for(var cat in trade){
-						var cell = row.insertCell(j++);
-						cell.innerHTML = trade[cat];
-					}
+					// Insert new cells 					
+					var cell = row.insertCell(0);
+					cell.innerHTML = trade["Stock"];
+					var cell = row.insertCell(1);
+					cell.innerHTML = trade['Quantity'];
+					var cell = row.insertCell(2);
+					cell.innerHTML = trade['Long Put'];
+					var cell = row.insertCell(3);
+					cell.innerHTML = trade['Short Put'];
+					var cell = row.insertCell(4);
+					cell.innerHTML = trade['Short Call'];
+					var cell = row.insertCell(5);
+					cell.innerHTML = trade['Long Call'];
+					var cell = row.insertCell(6);
+					cell.innerHTML = trade['Maturity'];
+					var cell = row.insertCell(7);
+					cell.innerHTML = trade['Opening Price'];
+					var cell = row.insertCell(8);
+					cell.innerHTML = trade['Closing Price'];
+					var cell = row.insertCell(9);
+					cell.innerHTML = "(calculate)";
 				}
 			});	
             
@@ -118,11 +149,9 @@
 						   "Short Put": 220,
 						   "Short Call": 232,
 						   "Long Call": 234,
-						   Underlying: 224,
 						   Maturity: "Jan-20-17",
 						   "Opening Price": -.48,
-						   "Closing Price": -.35,
-						   PnL: 260
+						   "Closing Price": -.35
 						};
 			var condor2 = {Stock: 'RUT',
 						   Quantity: -5,
@@ -130,11 +159,9 @@
 						   "Short Put": 1260,
 						   "Short Call": 1460,
 						   "Long Call": 1480,
-						   Underlying: 1360,
 						   Maturity: "Feb-17-17",
 						   "Opening Price": -3.65,
-						   "Closing Price": -3.70,
-						   PnL: -20
+						   "Closing Price": -3.70
 						};
 
 			saveTrade(condor1,1);
