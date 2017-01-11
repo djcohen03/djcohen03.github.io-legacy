@@ -1,0 +1,682 @@
+<TABLE border="1" cellpadding="4" width="100%" style="border: 1px solid #000000; border-collapse: collapse;">
+ <TR>
+  <TH>Symbol</TH>
+  <TH>Type</TH>
+  <TH>N</TH>
+  <TH>Date Placed</TH>
+  <TH>Expiration</TH>
+  <TH>Price</TH>
+  <TH>Cost</TH>
+  <TH>Fee</TH>
+ </TR>
+ <TR>
+  <TD>NVDA</TD>
+  <TD>Iron Condor</TD>
+  <TD>15</TD>
+  <TD>Jan 09, 2017</TD>
+  <TD>Jan 20, 2017</TD>
+  <TD>1.32</TD>
+  <TD>-1725.0</TD>
+  <TD>56.4</TD>
+ </TR>
+ <TR>
+  <TD>XLE</TD>
+  <TD>Iron Condor</TD>
+  <TD>-15</TD>
+  <TD>Jan 09, 2017</TD>
+  <TD>Feb 17, 2017</TD>
+  <TD>1.67</TD>
+  <TD>-630.0</TD>
+  <TD>56.43</TD>
+ </TR>
+ <TR>
+  <TD>SPY</TD>
+  <TD>Iron Condor</TD>
+  <TD>15</TD>
+  <TD>Jan 06, 2017</TD>
+  <TD>Feb 17, 2017</TD>
+  <TD>2.58</TD>
+  <TD>-2595.0</TD>
+  <TD>56.45</TD>
+ </TR>
+ <TR>
+  <TD>RUT</TD>
+  <TD>Iron Condor</TD>
+  <TD>5</TD>
+  <TD>Jan 04, 2017</TD>
+  <TD>Feb 17, 2017</TD>
+  <TD>22.62</TD>
+  <TD>-6545.0</TD>
+  <TD>25.47</TD>
+ </TR>
+ <TR>
+  <TD>LULU</TD>
+  <TD>Iron Condor</TD>
+  <TD>-20</TD>
+  <TD>Jan 03, 2017</TD>
+  <TD>Jan 20, 2017</TD>
+  <TD>1.46</TD>
+  <TD>2134.0</TD>
+  <TD>71.9</TD>
+ </TR>
+ <TR>
+  <TD>RUT</TD>
+  <TD>Iron Condor</TD>
+  <TD>-6</TD>
+  <TD>Jan 03, 2017</TD>
+  <TD>Jan 20, 2017</TD>
+  <TD>10.85</TD>
+  <TD>9010.0</TD>
+  <TD>28.55</TD>
+ </TR>
+ <TR>
+  <TD>NVDA</TD>
+  <TD>Iron Condor</TD>
+  <TD>15</TD>
+  <TD>Dec 30, 2016</TD>
+  <TD>Jan 20, 2017</TD>
+  <TD>3.33</TD>
+  <TD>-735.0</TD>
+  <TD>56.46</TD>
+ </TR>
+ <TR>
+  <TD>GPS</TD>
+  <TD>Iron Condor</TD>
+  <TD>-25</TD>
+  <TD>Dec 24, 2016</TD>
+  <TD>Jan 20, 2017</TD>
+  <TD>0.88</TD>
+  <TD>1725.0</TD>
+  <TD>87.38</TD>
+ </TR>
+ <TR>
+  <TD>RUT</TD>
+  <TD>Iron Condor</TD>
+  <TD>-6</TD>
+  <TD>Dec 24, 2016</TD>
+  <TD>Jan 20, 2017</TD>
+  <TD>16.54</TD>
+  <TD>3624.0</TD>
+  <TD>28.55</TD>
+ </TR>
+ <TR>
+  <TD>RUT</TD>
+  <TD>Iron Condor</TD>
+  <TD>2</TD>
+  <TD>Dec 23, 2016</TD>
+  <TD>Dec 30, 2016</TD>
+  <TD>3.1</TD>
+  <TD>-210.0</TD>
+  <TD>16.17</TD>
+ </TR>
+ <TR>
+  <TD>SPY</TD>
+  <TD>Iron Condor</TD>
+  <TD>-20</TD>
+  <TD>Dec 21, 2016</TD>
+  <TD>Jan 20, 2017</TD>
+  <TD>2.3</TD>
+  <TD>140.0</TD>
+  <TD>71.93</TD>
+ </TR>
+ <TR>
+  <TD>RUT</TD>
+  <TD>Iron Condor</TD>
+  <TD>-2</TD>
+  <TD>Dec 16, 2016</TD>
+  <TD>Dec 30, 2016</TD>
+  <TD>14.18</TD>
+  <TD>-282.0</TD>
+  <TD>16.19</TD>
+ </TR>
+ <TR>
+  <TD>SPY</TD>
+  <TD>Iron Condor</TD>
+  <TD>10</TD>
+  <TD>Dec 16, 2016</TD>
+  <TD>Dec 30, 2016</TD>
+  <TD>0.85</TD>
+  <TD>-160.0</TD>
+  <TD>40.96</TD>
+ </TR>
+ <TR>
+  <TD>SPY</TD>
+  <TD>Single</TD>
+  <TD>-20</TD>
+  <TD>Dec 14, 2016</TD>
+  <TD>Dec 16, 2016</TD>
+  <TD>2.69</TD>
+  <TD>-5380.0</TD>
+  <TD>15.59</TD>
+ </TR>
+ <TR>
+  <TD>SPY</TD>
+  <TD>Single</TD>
+  <TD>10</TD>
+  <TD>Dec 13, 2016</TD>
+  <TD>Dec 16, 2016</TD>
+  <TD>4.58</TD>
+  <TD>4580.0</TD>
+  <TD>17.73</TD>
+ </TR>
+ <TR>
+  <TD>RUT</TD>
+  <TD>Calandar Spread</TD>
+  <TD>4</TD>
+  <TD>Dec 13, 2016</TD>
+  <TD>Dec 16, 2016</TD>
+  <TD>7.68</TD>
+  <TD>-2916.0</TD>
+  <TD>16.17</TD>
+ </TR>
+ <TR>
+  <TD>SPY</TD>
+  <TD>Single</TD>
+  <TD>10</TD>
+  <TD>Dec 05, 2016</TD>
+  <TD>Dec 16, 2016</TD>
+  <TD>0.72</TD>
+  <TD>720.0</TD>
+  <TD>17.73</TD>
+ </TR>
+ <TR>
+  <TD>SPY</TD>
+  <TD>Single</TD>
+  <TD>-12</TD>
+  <TD>Dec 02, 2016</TD>
+  <TD>Dec 16, 2016</TD>
+  <TD>0.41</TD>
+  <TD>-492.0</TD>
+  <TD>19.28</TD>
+ </TR>
+ <TR>
+  <TD>TBF</TD>
+  <TD>Stock</TD>
+  <TD>-400</TD>
+  <TD>Nov 22, 2016</TD>
+  <TD>NA</TD>
+  <TD>23.64</TD>
+  <TD>-9456.0</TD>
+  <TD>10.2</TD>
+ </TR>
+ <TR>
+  <TD>RUT</TD>
+  <TD>Calandar Spread</TD>
+  <TD>-4</TD>
+  <TD>Nov 15, 2016</TD>
+  <TD>Dec 16, 2016</TD>
+  <TD>56.5</TD>
+  <TD>13936.0</TD>
+  <TD>16.17</TD>
+ </TR>
+ <TR>
+  <TD>SPY</TD>
+  <TD>Iron Condor</TD>
+  <TD>-20</TD>
+  <TD>Nov 15, 2016</TD>
+  <TD>Dec 16, 2016</TD>
+  <TD>4.03</TD>
+  <TD>3380.0</TD>
+  <TD>71.97</TD>
+ </TR>
+ <TR>
+  <TD>SPY</TD>
+  <TD>Stock</TD>
+  <TD>&nbsp;</TD>
+  <TD>Nov 07, 2016</TD>
+  <TD>NA</TD>
+  <TD>211.47</TD>
+  <TD>-212950.0</TD>
+  <TD>34.62</TD>
+ </TR>
+ <TR>
+  <TD>RUT</TD>
+  <TD>Calandar Spread</TD>
+  <TD>-3</TD>
+  <TD>Oct 18, 2016</TD>
+  <TD>Dec 16, 2016</TD>
+  <TD>70.87</TD>
+  <TD>8997.0</TD>
+  <TD>14.63</TD>
+ </TR>
+ <TR>
+  <TD>VTV</TD>
+  <TD>Stock</TD>
+  <TD>-100</TD>
+  <TD>Oct 12, 2016</TD>
+  <TD>NA</TD>
+  <TD>86.13</TD>
+  <TD>-8613.48</TD>
+  <TD>10.18</TD>
+ </TR>
+ <TR>
+  <TD>SPY</TD>
+  <TD>Iron Condor</TD>
+  <TD>-10</TD>
+  <TD>Oct 11, 2016</TD>
+  <TD>Nov 04, 2016</TD>
+  <TD>2.51</TD>
+  <TD>1030.0</TD>
+  <TD>40.98</TD>
+ </TR>
+ <TR>
+  <TD>RUT</TD>
+  <TD>Calandar Spread</TD>
+  <TD>3</TD>
+  <TD>Oct 11, 2016</TD>
+  <TD>Dec 16, 2016</TD>
+  <TD>57.65</TD>
+  <TD>-7155.0</TD>
+  <TD>14.63</TD>
+ </TR>
+ <TR>
+  <TD>RUT</TD>
+  <TD>Calandar Spread</TD>
+  <TD>4</TD>
+  <TD>Sep 29, 2016</TD>
+  <TD>Oct 14, 2016</TD>
+  <TD>23.91</TD>
+  <TD>-7512.0</TD>
+  <TD>16.17</TD>
+ </TR>
+ <TR>
+  <TD>RUT</TD>
+  <TD>Calandar Spread</TD>
+  <TD>4</TD>
+  <TD>Sep 13, 2016</TD>
+  <TD>Nov 18, 2016</TD>
+  <TD>54.25</TD>
+  <TD>-8228.0</TD>
+  <TD>16.17</TD>
+ </TR>
+ <TR>
+  <TD>EBAY</TD>
+  <TD>Iron Condor</TD>
+  <TD>10</TD>
+  <TD>Sep 12, 2016</TD>
+  <TD>Oct 21, 2016</TD>
+  <TD>0.68</TD>
+  <TD>-990.0</TD>
+  <TD>40.96</TD>
+ </TR>
+ <TR>
+  <TD>RUT</TD>
+  <TD>Calandar Spread</TD>
+  <TD>3</TD>
+  <TD>Sep 09, 2016</TD>
+  <TD>Sep 23, 2016</TD>
+  <TD>33.31</TD>
+  <TD>-6696.0</TD>
+  <TD>14.63</TD>
+ </TR>
+ <TR>
+  <TD>RUT</TD>
+  <TD>Calandar Spread</TD>
+  <TD>-3</TD>
+  <TD>Aug 24, 2016</TD>
+  <TD>Sep 23, 2016</TD>
+  <TD>45.56</TD>
+  <TD>8376.0</TD>
+  <TD>14.63</TD>
+ </TR>
+ <TR>
+  <TD>CHD</TD>
+  <TD>Iron Condor</TD>
+  <TD>10</TD>
+  <TD>May 19, 2016</TD>
+  <TD>Jul 15, 2016</TD>
+  <TD>7.44</TD>
+  <TD>-1170.0</TD>
+  <TD>41.08</TD>
+ </TR>
+ <TR>
+  <TD>HRL</TD>
+  <TD>Iron Condor</TD>
+  <TD>-5</TD>
+  <TD>Apr 25, 2016</TD>
+  <TD>Jun 17, 2016</TD>
+  <TD>0.71</TD>
+  <TD>115.0</TD>
+  <TD>25.49</TD>
+ </TR>
+ <TR>
+  <TD>TLT</TD>
+  <TD>Iron Condor</TD>
+  <TD>5</TD>
+  <TD>Apr 18, 2016</TD>
+  <TD>May 06, 2016</TD>
+  <TD>0.46</TD>
+  <TD>-135.0</TD>
+  <TD>25.49</TD>
+ </TR>
+ <TR>
+  <TD>TBF</TD>
+  <TD>Stock</TD>
+  <TD>-400</TD>
+  <TD>Mar 22, 2016</TD>
+  <TD>NA</TD>
+  <TD>22.94</TD>
+  <TD>-9176.0</TD>
+  <TD>10.2</TD>
+ </TR>
+ <TR>
+  <TD>TLT</TD>
+  <TD>Bear Put Spread</TD>
+  <TD>20</TD>
+  <TD>Nov 19, 2015</TD>
+  <TD>Dec 18, 2015</TD>
+  <TD>0.25</TD>
+  <TD>-60.0</TD>
+  <TD>41.32</TD>
+ </TR>
+ <TR>
+  <TD>TLT</TD>
+  <TD>Iron Condor</TD>
+  <TD>-10</TD>
+  <TD>Oct 30, 2015</TD>
+  <TD>Dec 18, 2015</TD>
+  <TD>1.48</TD>
+  <TD>-510.0</TD>
+  <TD>51.33</TD>
+ </TR>
+ <TR>
+  <TD>TLT</TD>
+  <TD>Iron Condor</TD>
+  <TD>10</TD>
+  <TD>Sep 21, 2015</TD>
+  <TD>Dec 18, 2015</TD>
+  <TD>3.78</TD>
+  <TD>-2650.0</TD>
+  <TD>81.28</TD>
+ </TR>
+ <TR>
+  <TD>TBX</TD>
+  <TD>Stock</TD>
+  <TD>-200</TD>
+  <TD>Jun 09, 2015</TD>
+  <TD>NA</TD>
+  <TD>30.46</TD>
+  <TD>-9142.01</TD>
+  <TD>5.12</TD>
+ </TR>
+ <TR>
+  <TD>TBF</TD>
+  <TD>Stock</TD>
+  <TD>200</TD>
+  <TD>Jun 09, 2015</TD>
+  <TD>NA</TD>
+  <TD>26.43</TD>
+  <TD>5285.8</TD>
+  <TD>5.0</TD>
+ </TR>
+ <TR>
+  <TD>YHOO</TD>
+  <TD>Stock</TD>
+  <TD>-100</TD>
+  <TD>May 19, 2015</TD>
+  <TD>NA</TD>
+  <TD>40.0</TD>
+  <TD>-4000.0</TD>
+  <TD>5.08</TD>
+ </TR>
+ <TR>
+  <TD>TBX</TD>
+  <TD>Stock</TD>
+  <TD>200</TD>
+  <TD>Mar 27, 2015</TD>
+  <TD>NA</TD>
+  <TD>29.7</TD>
+  <TD>5940.0</TD>
+  <TD>5.0</TD>
+ </TR>
+ <TR>
+  <TD>TBF</TD>
+  <TD>Stock</TD>
+  <TD>200</TD>
+  <TD>Mar 18, 2015</TD>
+  <TD>NA</TD>
+  <TD>24.24</TD>
+  <TD>4847.98</TD>
+  <TD>5.0</TD>
+ </TR>
+ <TR>
+  <TD>VTV</TD>
+  <TD>Stock</TD>
+  <TD>100</TD>
+  <TD>Feb 10, 2015</TD>
+  <TD>NA</TD>
+  <TD>83.94</TD>
+  <TD>8393.99</TD>
+  <TD>5.0</TD>
+ </TR>
+ <TR>
+  <TD>YHOO</TD>
+  <TD>Stock</TD>
+  <TD>100</TD>
+  <TD>Jan 28, 2015</TD>
+  <TD>NA</TD>
+  <TD>50.38</TD>
+  <TD>5038.0</TD>
+  <TD>5.0</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>-200</TD>
+  <TD>Oct 13, 2014</TD>
+  <TD>NA</TD>
+  <TD>39.65</TD>
+  <TD>-7930.0</TD>
+  <TD>5.18</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>-300</TD>
+  <TD>Oct 10, 2014</TD>
+  <TD>NA</TD>
+  <TD>34.62</TD>
+  <TD>-20524.0</TD>
+  <TD>15.24</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>-100</TD>
+  <TD>Oct 07, 2014</TD>
+  <TD>NA</TD>
+  <TD>32.3</TD>
+  <TD>-3230.0</TD>
+  <TD>5.08</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>-100</TD>
+  <TD>Oct 01, 2014</TD>
+  <TD>NA</TD>
+  <TD>32.0</TD>
+  <TD>-3200.0</TD>
+  <TD>5.08</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>-100</TD>
+  <TD>Sep 29, 2014</TD>
+  <TD>NA</TD>
+  <TD>31.0</TD>
+  <TD>-3100.0</TD>
+  <TD>5.07</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>-100</TD>
+  <TD>Sep 25, 2014</TD>
+  <TD>NA</TD>
+  <TD>30.0</TD>
+  <TD>-3000.0</TD>
+  <TD>5.07</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>100</TD>
+  <TD>May 02, 2014</TD>
+  <TD>NA</TD>
+  <TD>39.95</TD>
+  <TD>3995.0</TD>
+  <TD>5.0</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>100</TD>
+  <TD>Apr 29, 2014</TD>
+  <TD>NA</TD>
+  <TD>40.25</TD>
+  <TD>4025.0</TD>
+  <TD>5.0</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>200</TD>
+  <TD>Apr 22, 2014</TD>
+  <TD>NA</TD>
+  <TD>40.7</TD>
+  <TD>12221.0</TD>
+  <TD>10.0</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>100</TD>
+  <TD>Apr 21, 2014</TD>
+  <TD>NA</TD>
+  <TD>40.89</TD>
+  <TD>4088.99</TD>
+  <TD>5.0</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>-200</TD>
+  <TD>Apr 11, 2014</TD>
+  <TD>NA</TD>
+  <TD>45.05</TD>
+  <TD>-9010.08</TD>
+  <TD>5.2</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>300</TD>
+  <TD>Apr 01, 2014</TD>
+  <TD>NA</TD>
+  <TD>41.27</TD>
+  <TD>24864.95</TD>
+  <TD>15.0</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>-100</TD>
+  <TD>Mar 14, 2014</TD>
+  <TD>NA</TD>
+  <TD>47.88</TD>
+  <TD>-4788.0</TD>
+  <TD>5.09</TD>
+ </TR>
+ <TR>
+  <TD>BDCG</TD>
+  <TD>Stock</TD>
+  <TD>-200</TD>
+  <TD>Mar 13, 2014</TD>
+  <TD>NA</TD>
+  <TD>0.94</TD>
+  <TD>-188.0</TD>
+  <TD>5.01</TD>
+ </TR>
+ <TR>
+  <TD>BDCG</TD>
+  <TD>Stock</TD>
+  <TD>200</TD>
+  <TD>Mar 06, 2014</TD>
+  <TD>NA</TD>
+  <TD>1.42</TD>
+  <TD>562.42</TD>
+  <TD>10.0</TD>
+ </TR>
+ <TR>
+  <TD>FB</TD>
+  <TD>Single</TD>
+  <TD>-5</TD>
+  <TD>Feb 20, 2014</TD>
+  <TD>Mar 22, 2014</TD>
+  <TD>1.54</TD>
+  <TD>-770.0</TD>
+  <TD>14.89</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>200</TD>
+  <TD>Feb 19, 2014</TD>
+  <TD>NA</TD>
+  <TD>41.85</TD>
+  <TD>8370.0</TD>
+  <TD>5.0</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>200</TD>
+  <TD>Feb 12, 2014</TD>
+  <TD>NA</TD>
+  <TD>43.2</TD>
+  <TD>8639.96</TD>
+  <TD>5.0</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>-200</TD>
+  <TD>Jan 29, 2014</TD>
+  <TD>NA</TD>
+  <TD>46.25</TD>
+  <TD>-9250.0</TD>
+  <TD>5.17</TD>
+ </TR>
+ <TR>
+  <TD>VXX</TD>
+  <TD>Stock</TD>
+  <TD>200</TD>
+  <TD>Jan 15, 2014</TD>
+  <TD>NA</TD>
+  <TD>40.98</TD>
+  <TD>8196.0</TD>
+  <TD>5.0</TD>
+ </TR>
+ <TR>
+  <TD>TBF</TD>
+  <TD>Stock</TD>
+  <TD>100</TD>
+  <TD>Jun 28, 2013</TD>
+  <TD>NA</TD>
+  <TD>31.7</TD>
+  <TD>3169.99</TD>
+  <TD>5.0</TD>
+ </TR>
+ <TR>
+  <TD>TBF</TD>
+  <TD>Stock</TD>
+  <TD>300</TD>
+  <TD>Jun 24, 2013</TD>
+  <TD>NA</TD>
+  <TD>32.12</TD>
+  <TD>9636.0</TD>
+  <TD>5.0</TD>
+ </TR>
+</TABLE>

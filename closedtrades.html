@@ -123,18 +123,32 @@
 		<br>
 		<a href="Home.html"> Home </a>
 		<br><br>
-		<table style='width:75%' border = '1' id="TradeTable"></table>
+		<script>
+
+ 			function readTextFile(file){
+			    var rawFile = new XMLHttpRequest();
+			    rawFile.open("GET", file, false);
+			    rawFile.onreadystatechange = function ()
+			    {
+			        if(rawFile.readyState === 4)
+			        {
+			            if(rawFile.status === 200 || rawFile.status == 0)
+			            {
+			                var allText = rawFile.responseText;
+			                document.write(allText)
+			            }
+			        }
+			    }
+			    rawFile.send(null);
+			}	
+
+			readTextFile("file:///Users/david/Desktop/djcohen03.github.io/Data/htmlTable.txt");	
+
+
+		</script>
 
 
 
-
-
-
-		<!-- MAIN -->
-        <script type="text/javascript">
-
-        </script>
-		
 
 	</body>
 </html>
