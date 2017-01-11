@@ -68,6 +68,8 @@
 				var cell = row.insertCell(9);
 				cell.innerHTML = 'Mark'.bold();
 				var cell = row.insertCell(10);
+				cell.innerHTML = 'DTE'.bold();
+				var cell = row.insertCell(11);
 				cell.innerHTML = 'PnL'.bold();
 
 
@@ -104,6 +106,8 @@
 					cell.innerHTML = trade['Mark'];
 					var cell = row.insertCell(10);
 					cell.innerHTML = "(calculate)";
+					var cell = row.insertCell(11);
+					cell.innerHTML = "(calculate)";
 				}
 			});	
 
@@ -123,7 +127,12 @@
 		<!-- MARK: Page Setup -->
 		<h1>Open Trades</h1>
 		<br>
-		<a href="home.html"> Home </a>
+		<a href="Home.html"> Home </a>
+		<br>
+		<a href="AddNewTrade.html"> Add New Trade </a>
+
+
+
 		<br><br>
 		<table style='width:75%' border = '1' id="TradeTable"></table>
 
