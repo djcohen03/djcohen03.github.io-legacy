@@ -259,7 +259,7 @@ closed_trades.reverse()
 htmltablecode = HTML.table(closed_trades, header_row=header, 
 										  width = '60%',
 										  col_align = ['left','left','left','left','left','left','center'],
-										  # col_styles=['background-color:tan','','','','','',''],
+										  col_styles=['font-weight: bold','','','','','',''],
 										  col_classes = ['','','','','','','pnl'])
 with open("htmlTable.txt", "w") as text_file:
     text_file.write(htmltablecode)

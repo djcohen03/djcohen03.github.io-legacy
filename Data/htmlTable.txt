@@ -1,4 +1,4 @@
-<TABLE border="1" cellpadding="4" width="60%" style="border: 1px solid #000000; border-collapse: collapse;">
+<TABLE width="60%" cellpadding="4" border="1" style="border: 1px solid #000000; border-collapse: collapse;">
  <TR>
   <TH>Symbol</TH>
   <TH>Type</TH>
@@ -9,237 +9,237 @@
   <TH>PnL</TH>
  </TR>
  <TR>
-  <TD align="left">NVDA</TD>
+  <TD align="left" style="font-weight: bold">NVDA</TD>
   <TD align="left">IronCondor</TD>
   <TD align="left">Dec 30, 2016</TD>
   <TD align="left">Jan 20, 2017</TD>
   <TD align="left">Jan 09, 2017</TD>
   <TD align="left">Managed</TD>
-  <TD align="center" class="pnl">795.0</TD>
+  <TD class="pnl" align="center">795.0</TD>
  </TR>
  <TR>
-  <TD align="left">RUT</TD>
+  <TD align="left" style="font-weight: bold">RUT</TD>
   <TD align="left">IronCondor</TD>
   <TD align="left">Dec 16, 2016</TD>
   <TD align="left">Dec 30, 2016</TD>
   <TD align="left">Dec 23, 2016</TD>
   <TD align="left">Managed</TD>
-  <TD align="center" class="pnl">316.0</TD>
+  <TD class="pnl" align="center">316.0</TD>
  </TR>
  <TR>
-  <TD align="left">SPY</TD>
+  <TD align="left" style="font-weight: bold">SPY</TD>
   <TD align="left">IronCondor</TD>
   <TD align="left">Dec 16, 2016</TD>
   <TD align="left">Dec 30, 2016</TD>
   <TD align="left">Dec 30, 2016</TD>
   <TD align="left">Expired</TD>
-  <TD align="center" class="pnl">430.0</TD>
+  <TD class="pnl" align="center">430.0</TD>
  </TR>
  <TR>
-  <TD align="left">SPY</TD>
+  <TD align="left" style="font-weight: bold">SPY</TD>
   <TD align="left">OptionsTrade</TD>
   <TD align="left">Dec 14, 2016</TD>
   <TD align="left">Dec 16, 2016</TD>
   <TD align="left">Dec 16, 2016</TD>
   <TD align="left">Expired</TD>
-  <TD align="center" class="pnl">5380.0</TD>
+  <TD class="pnl" align="center">5380.0</TD>
  </TR>
  <TR>
-  <TD align="left">SPY</TD>
+  <TD align="left" style="font-weight: bold">SPY</TD>
   <TD align="left">OptionsTrade</TD>
   <TD align="left">Dec 05, 2016</TD>
   <TD align="left">Dec 16, 2016</TD>
   <TD align="left">Dec 16, 2016</TD>
   <TD align="left">Expired</TD>
-  <TD align="center" class="pnl">-5300.0</TD>
+  <TD class="pnl" align="center">-5300.0</TD>
  </TR>
  <TR>
-  <TD align="left">SPY</TD>
+  <TD align="left" style="font-weight: bold">SPY</TD>
   <TD align="left">OptionsTrade</TD>
   <TD align="left">Dec 02, 2016</TD>
   <TD align="left">Dec 16, 2016</TD>
   <TD align="left">Dec 16, 2016</TD>
   <TD align="left">Expired</TD>
-  <TD align="center" class="pnl">492.0</TD>
+  <TD class="pnl" align="center">492.0</TD>
  </TR>
  <TR>
-  <TD align="left">RUT</TD>
+  <TD align="left" style="font-weight: bold">SPY</TD>
+  <TD align="left">IronCondor</TD>
+  <TD align="left">Nov 15, 2016</TD>
+  <TD align="left">Dec 16, 2016</TD>
+  <TD align="left">Dec 16, 2016</TD>
+  <TD align="left">Expired</TD>
+  <TD class="pnl" align="center">1300.0</TD>
+ </TR>
+ <TR>
+  <TD align="left" style="font-weight: bold">RUT</TD>
   <TD align="left">CalandarSpread</TD>
   <TD align="left">Nov 15, 2016</TD>
   <TD align="left">Dec 16, 2016</TD>
   <TD align="left">Dec 13, 2016</TD>
   <TD align="left">Managed</TD>
-  <TD align="center" class="pnl">-2512.0</TD>
+  <TD class="pnl" align="center">-2512.0</TD>
  </TR>
  <TR>
-  <TD align="left">SPY</TD>
-  <TD align="left">IronCondor</TD>
-  <TD align="left">Nov 15, 2016</TD>
-  <TD align="left">Dec 16, 2016</TD>
-  <TD align="left">Dec 16, 2016</TD>
-  <TD align="left">Expired</TD>
-  <TD align="center" class="pnl">1300.0</TD>
- </TR>
- <TR>
-  <TD align="left">SPY</TD>
-  <TD align="left">IronCondor</TD>
-  <TD align="left">Oct 11, 2016</TD>
-  <TD align="left">Nov 04, 2016</TD>
-  <TD align="left">Nov 04, 2016</TD>
-  <TD align="left">Expired</TD>
-  <TD align="center" class="pnl">450.0</TD>
- </TR>
- <TR>
-  <TD align="left">RUT</TD>
+  <TD align="left" style="font-weight: bold">RUT</TD>
   <TD align="left">CalandarSpread</TD>
   <TD align="left">Oct 11, 2016</TD>
   <TD align="left">Nov 18, 2016</TD>
   <TD align="left">Oct 18, 2016</TD>
   <TD align="left">Managed</TD>
-  <TD align="center" class="pnl">282.0</TD>
+  <TD class="pnl" align="center">282.0</TD>
  </TR>
  <TR>
-  <TD align="left">RUT</TD>
+  <TD align="left" style="font-weight: bold">SPY</TD>
+  <TD align="left">IronCondor</TD>
+  <TD align="left">Oct 11, 2016</TD>
+  <TD align="left">Nov 04, 2016</TD>
+  <TD align="left">Nov 04, 2016</TD>
+  <TD align="left">Expired</TD>
+  <TD class="pnl" align="center">450.0</TD>
+ </TR>
+ <TR>
+  <TD align="left" style="font-weight: bold">RUT</TD>
   <TD align="left">CalandarSpread</TD>
   <TD align="left">Sep 13, 2016</TD>
   <TD align="left">Oct 14, 2016</TD>
   <TD align="left">Sep 29, 2016</TD>
   <TD align="left">Managed</TD>
-  <TD align="center" class="pnl">216.0</TD>
+  <TD class="pnl" align="center">216.0</TD>
  </TR>
  <TR>
-  <TD align="left">EBAY</TD>
+  <TD align="left" style="font-weight: bold">EBAY</TD>
   <TD align="left">IronCondor</TD>
   <TD align="left">Sep 12, 2016</TD>
   <TD align="left">Oct 21, 2016</TD>
   <TD align="left">Oct 21, 2016</TD>
   <TD align="left">Expired</TD>
-  <TD align="center" class="pnl">460.0</TD>
+  <TD class="pnl" align="center">460.0</TD>
  </TR>
  <TR>
-  <TD align="left">RUT</TD>
+  <TD align="left" style="font-weight: bold">RUT</TD>
   <TD align="left">CalandarSpread</TD>
   <TD align="left">Aug 24, 2016</TD>
   <TD align="left">Sep 23, 2016</TD>
   <TD align="left">Sep 09, 2016</TD>
   <TD align="left">Managed</TD>
-  <TD align="center" class="pnl">315.0</TD>
+  <TD class="pnl" align="center">315.0</TD>
  </TR>
  <TR>
-  <TD align="left">CHD</TD>
+  <TD align="left" style="font-weight: bold">CHD</TD>
   <TD align="left">IronCondor</TD>
   <TD align="left">May 19, 2016</TD>
   <TD align="left">Jul 15, 2016</TD>
   <TD align="left">Jul 15, 2016</TD>
   <TD align="left">Expired</TD>
-  <TD align="center" class="pnl">3400.0</TD>
+  <TD class="pnl" align="center">3400.0</TD>
  </TR>
  <TR>
-  <TD align="left">HRL</TD>
+  <TD align="left" style="font-weight: bold">HRL</TD>
   <TD align="left">IronCondor</TD>
   <TD align="left">Apr 25, 2016</TD>
   <TD align="left">Jun 17, 2016</TD>
   <TD align="left">Jun 17, 2016</TD>
   <TD align="left">Expired</TD>
-  <TD align="center" class="pnl">125.0</TD>
+  <TD class="pnl" align="center">125.0</TD>
  </TR>
  <TR>
-  <TD align="left">TLT</TD>
+  <TD align="left" style="font-weight: bold">TLT</TD>
   <TD align="left">IronCondor</TD>
   <TD align="left">Apr 18, 2016</TD>
   <TD align="left">May 06, 2016</TD>
   <TD align="left">May 06, 2016</TD>
   <TD align="left">Expired</TD>
-  <TD align="center" class="pnl">150.0</TD>
+  <TD class="pnl" align="center">150.0</TD>
  </TR>
  <TR>
-  <TD align="left">TLT</TD>
+  <TD align="left" style="font-weight: bold">TLT</TD>
   <TD align="left">VerticalSpread</TD>
   <TD align="left">Nov 19, 2015</TD>
   <TD align="left">Dec 18, 2015</TD>
   <TD align="left">Dec 18, 2015</TD>
   <TD align="left">Expired</TD>
-  <TD align="center" class="pnl">-380.0</TD>
+  <TD class="pnl" align="center">-380.0</TD>
  </TR>
  <TR>
-  <TD align="left">TLT</TD>
+  <TD align="left" style="font-weight: bold">TLT</TD>
   <TD align="left">IronCondor</TD>
   <TD align="left">Sep 21, 2015</TD>
   <TD align="left">Dec 18, 2015</TD>
   <TD align="left">Dec 18, 2015</TD>
   <TD align="left">Expired</TD>
-  <TD align="center" class="pnl">2260.0</TD>
+  <TD class="pnl" align="center">2260.0</TD>
  </TR>
  <TR>
-  <TD align="left">TBX</TD>
+  <TD align="left" style="font-weight: bold">TBX</TD>
   <TD align="left">StockTrade</TD>
   <TD align="left">Mar 27, 2015</TD>
   <TD align="left">NA</TD>
   <TD align="left">Jun 09, 2015</TD>
   <TD align="left">Managed</TD>
-  <TD align="center" class="pnl">160.0</TD>
+  <TD class="pnl" align="center">160.0</TD>
  </TR>
  <TR>
-  <TD align="left">VTV</TD>
+  <TD align="left" style="font-weight: bold">VTV</TD>
   <TD align="left">StockTrade</TD>
   <TD align="left">Feb 10, 2015</TD>
   <TD align="left">NA</TD>
   <TD align="left">Oct 12, 2016</TD>
   <TD align="left">Managed</TD>
-  <TD align="center" class="pnl">219.49</TD>
+  <TD class="pnl" align="center">219.49</TD>
  </TR>
  <TR>
-  <TD align="left">YHOO</TD>
+  <TD align="left" style="font-weight: bold">YHOO</TD>
   <TD align="left">StockTrade</TD>
   <TD align="left">Jan 28, 2015</TD>
   <TD align="left">NA</TD>
   <TD align="left">May 19, 2015</TD>
   <TD align="left">Managed</TD>
-  <TD align="center" class="pnl">-1038.0</TD>
+  <TD class="pnl" align="center">-1038.0</TD>
  </TR>
  <TR>
-  <TD align="left">BDCG</TD>
+  <TD align="left" style="font-weight: bold">BDCG</TD>
   <TD align="left">StockTrade</TD>
   <TD align="left">Mar 06, 2014</TD>
   <TD align="left">NA</TD>
   <TD align="left">Mar 13, 2014</TD>
   <TD align="left">Managed</TD>
-  <TD align="center" class="pnl">-90.0</TD>
+  <TD class="pnl" align="center">-90.0</TD>
  </TR>
  <TR>
-  <TD align="left">FB</TD>
+  <TD align="left" style="font-weight: bold">FB</TD>
   <TD align="left">OptionsTrade</TD>
   <TD align="left">Feb 20, 2014</TD>
   <TD align="left">Mar 22, 2014</TD>
   <TD align="left">Mar 22, 2014</TD>
   <TD align="left">Expired</TD>
-  <TD align="center" class="pnl">770.0</TD>
+  <TD class="pnl" align="center">770.0</TD>
  </TR>
  <TR>
-  <TD align="left">VXX</TD>
+  <TD align="left" style="font-weight: bold">VXX</TD>
   <TD align="left">StockTrade</TD>
   <TD align="left">Feb 12, 2014</TD>
   <TD align="left">NA</TD>
   <TD align="left">Oct 13, 2014</TD>
   <TD align="left">Managed</TD>
-  <TD align="center" class="pnl">-5645.84</TD>
+  <TD class="pnl" align="center">-5645.84</TD>
  </TR>
  <TR>
-  <TD align="left">VXX</TD>
+  <TD align="left" style="font-weight: bold">VXX</TD>
   <TD align="left">StockTrade</TD>
   <TD align="left">Jan 15, 2014</TD>
   <TD align="left">NA</TD>
   <TD align="left">Jan 29, 2014</TD>
   <TD align="left">Managed</TD>
-  <TD align="center" class="pnl">1054.0</TD>
+  <TD class="pnl" align="center">1054.0</TD>
  </TR>
  <TR>
-  <TD align="left">TBF</TD>
+  <TD align="left" style="font-weight: bold">TBF</TD>
   <TD align="left">StockTrade</TD>
   <TD align="left">Jun 24, 2013</TD>
   <TD align="left">NA</TD>
   <TD align="left">Nov 22, 2016</TD>
   <TD align="left">Managed</TD>
-  <TD align="center" class="pnl">-4307.77</TD>
+  <TD class="pnl" align="center">-4307.77</TD>
  </TR>
 </TABLE>
