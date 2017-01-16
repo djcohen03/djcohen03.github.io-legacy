@@ -4,15 +4,64 @@
 		<link rel="stylesheet" type="text/css" href="tablestyle.css">
 	    <title> History </title>
 
+	    <script type="text/javascript">
+
+			function sortTable(tableid,col, asc){
+				var tbody = document.getElementById(tableid).tBodies[0];
+			    var rows = tbody.rows;
+			    var rlen = rows.length;
+			    var arr = new Array();
+			    var i, j, cells, clen;
+			    // fill the array with values from the table
+			    for(i = 0; i < rlen; i++)
+			    {
+			        cells = rows[i].cells;
+			        clen = cells.length;
+			        arr[i] = new Array();
+			      for(j = 0; j < clen; j++) { arr[i][j] = cells[j].innerHTML; }
+			    }
+			    // sort the array by the specified column number (col) and order (asc)
+			    arr.sort(function(a, b)
+			    {
+			        var retval=0;
+			        var fA,fB;
+			        if(col == 1 || col == 7){
+				        fA=parseFloat(a[col]);
+				        fB=parseFloat(b[col]);
+				    } else {
+				        fA=a[col];
+				        fB=b[col];
+				    }
+
+			        if(a[col] != b[col])
+			        {
+			            if((fA==a[col]) && (fB==b[col]) ){ retval=( fA > fB ) ? asc : -1*asc; } //numerical
+			            else { retval=(a[col] > b[col]) ? asc : -1*asc;}
+			        }
+			        return retval;      
+			    });
+			    for(var rowidx=0;rowidx<rlen;rowidx++)
+			    {
+			        for(var colidx=0;colidx<arr[rowidx].length;colidx++){ tbody.rows[rowidx].cells[colidx].innerHTML=arr[rowidx][colidx]; }
+			    }
+				updatePnlColors();
+			}
+
+
+
+		</script>
+
 
 	</head>
 	<body>
+		
 
 		<!-- MARK: Page Setup -->
 		<h1>Closed Trades</h1>
 		<br>
 		<a href="home.html"> Home </a>
 		<br><br>
+		<!-- <button onclick="sortTable('historical',7,-1)">Sort</button> -->
 		<script>
 
  			function readTextFile(file){
@@ -32,24 +81,26 @@
 			    rawFile.send(null);
 			}	
 
-			readTextFile("htmlTable.txt");	
+			readTextFile("historical.txt");	
 
-
-			var pnl_cells = document.getElementsByClassName("pnl");
-			var i;
-			var pnl;
-			for (i = 0; i < pnl_cells.length; i++) {
-			   	pnl = parseFloat(pnl_cells[i].innerHTML)
-			   	if(pnl > 0){
-				   	pnl_cells[i].style.color = "green";
-				} else {
-					pnl_cells[i].style.color = "red";
+			function updatePnlColors(){
+				var pnl_cells = document.getElementsByClassName("pnl");
+				var i;
+				var pnl;
+				for (i = 0; i < pnl_cells.length; i++) {
+				   	pnl = parseFloat(pnl_cells[i].innerHTML)
+				   	if(pnl > 0){
+					   	pnl_cells[i].style.color = "green";
+					} else {
+						pnl_cells[i].style.color = "red";
+					}
 				}
 			}
-			var str = "Hello World!";
-			var result = str.fontcolor("green");
+			updatePnlColors();
+
 
 		</script>
+
 
 
 

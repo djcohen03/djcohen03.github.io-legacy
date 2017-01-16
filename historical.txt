@@ -1,0 +1,292 @@
+<TABLE border="1" style="border: 1px solid #000000; border-collapse: collapse;" cellpadding="4" id="historical" width="60%">
+ <TR>
+  <TH>Symbol</TH>
+  <TH>N</TH>
+  <TH>Type</TH>
+  <TH>Opened</TH>
+  <TH>Closed</TH>
+  <TH>Duration</TH>
+  <TH>Management</TH>
+  <TH>PnL</TH>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">NVDA</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Dec 30, 2016</TD>
+  <TD align="center" class="closed">Jan 09, 2017</TD>
+  <TD align="center" class="duration">10 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">795.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
+  <TD align="center" class="n">-6</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Dec 24, 2016</TD>
+  <TD align="center" class="closed">Jan 03, 2017</TD>
+  <TD align="center" class="duration">10 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">876.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
+  <TD align="center" class="n">-2</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Dec 16, 2016</TD>
+  <TD align="center" class="closed">Dec 23, 2016</TD>
+  <TD align="center" class="duration">7 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">316.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Dec 16, 2016</TD>
+  <TD align="center" class="closed">Dec 30, 2016</TD>
+  <TD align="center" class="duration">14 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="pnl">430.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Call</TD>
+  <TD align="center" class="opened">Dec 14, 2016</TD>
+  <TD align="center" class="closed">Dec 16, 2016</TD>
+  <TD align="center" class="duration">2 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="pnl">5380.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
+  <TD align="center" class="n">10</TD>
+  <TD align="center" class="spread">Call</TD>
+  <TD align="center" class="opened">Dec 05, 2016</TD>
+  <TD align="center" class="closed">Dec 16, 2016</TD>
+  <TD align="center" class="duration">11 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="pnl">-5300.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
+  <TD align="center" class="n">-12</TD>
+  <TD align="center" class="spread">Put</TD>
+  <TD align="center" class="opened">Dec 02, 2016</TD>
+  <TD align="center" class="closed">Dec 16, 2016</TD>
+  <TD align="center" class="duration">14 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="pnl">492.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
+  <TD align="center" class="n">4</TD>
+  <TD align="center" class="spread">Calandar Spread</TD>
+  <TD align="center" class="opened">Nov 15, 2016</TD>
+  <TD align="center" class="closed">Dec 13, 2016</TD>
+  <TD align="center" class="duration">28 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">-2512.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Nov 15, 2016</TD>
+  <TD align="center" class="closed">Dec 16, 2016</TD>
+  <TD align="center" class="duration">31 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="pnl">1300.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
+  <TD align="center" class="n">1000</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Nov 07, 2016</TD>
+  <TD align="center" class="closed">Nov 08, 2016</TD>
+  <TD align="center" class="duration">1 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">2950.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
+  <TD align="center" class="n">3</TD>
+  <TD align="center" class="spread">Calandar Spread</TD>
+  <TD align="center" class="opened">Oct 11, 2016</TD>
+  <TD align="center" class="closed">Oct 18, 2016</TD>
+  <TD align="center" class="duration">7 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">282.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Oct 11, 2016</TD>
+  <TD align="center" class="closed">Nov 04, 2016</TD>
+  <TD align="center" class="duration">24 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="pnl">450.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
+  <TD align="center" class="n">4</TD>
+  <TD align="center" class="spread">Calandar Spread</TD>
+  <TD align="center" class="opened">Sep 13, 2016</TD>
+  <TD align="center" class="closed">Sep 29, 2016</TD>
+  <TD align="center" class="duration">16 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">216.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">EBAY</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Sep 12, 2016</TD>
+  <TD align="center" class="closed">Oct 21, 2016</TD>
+  <TD align="center" class="duration">39 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="pnl">460.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
+  <TD align="center" class="n">3</TD>
+  <TD align="center" class="spread">Calandar Spread</TD>
+  <TD align="center" class="opened">Aug 24, 2016</TD>
+  <TD align="center" class="closed">Sep 09, 2016</TD>
+  <TD align="center" class="duration">16 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">315.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">CHD</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">May 19, 2016</TD>
+  <TD align="center" class="closed">Jul 15, 2016</TD>
+  <TD align="center" class="duration">57 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="pnl">3400.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">HRL</TD>
+  <TD align="center" class="n">-5</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Apr 25, 2016</TD>
+  <TD align="center" class="closed">Jun 17, 2016</TD>
+  <TD align="center" class="duration">53 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="pnl">125.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">TLT</TD>
+  <TD align="center" class="n">-5</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Apr 18, 2016</TD>
+  <TD align="center" class="closed">May 06, 2016</TD>
+  <TD align="center" class="duration">18 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="pnl">150.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">TLT</TD>
+  <TD align="center" class="n">20</TD>
+  <TD align="center" class="spread">Vertical Spread</TD>
+  <TD align="center" class="opened">Nov 19, 2015</TD>
+  <TD align="center" class="closed">Dec 18, 2015</TD>
+  <TD align="center" class="duration">29 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="pnl">-380.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">TLT</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Sep 21, 2015</TD>
+  <TD align="center" class="closed">Dec 18, 2015</TD>
+  <TD align="center" class="duration">88 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="pnl">2260.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">TBX</TD>
+  <TD align="center" class="n">200</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Mar 27, 2015</TD>
+  <TD align="center" class="closed">Jun 09, 2015</TD>
+  <TD align="center" class="duration">74 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">160.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">VTV</TD>
+  <TD align="center" class="n">100</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Feb 10, 2015</TD>
+  <TD align="center" class="closed">Oct 12, 2016</TD>
+  <TD align="center" class="duration">610 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">219.49</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">YHOO</TD>
+  <TD align="center" class="n">100</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Jan 28, 2015</TD>
+  <TD align="center" class="closed">May 19, 2015</TD>
+  <TD align="center" class="duration">111 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">-1038.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">BDCG</TD>
+  <TD align="center" class="n">100</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Mar 06, 2014</TD>
+  <TD align="center" class="closed">Mar 13, 2014</TD>
+  <TD align="center" class="duration">7 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">-90.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">FB</TD>
+  <TD align="center" class="n">-5</TD>
+  <TD align="center" class="spread">Call</TD>
+  <TD align="center" class="opened">Feb 20, 2014</TD>
+  <TD align="center" class="closed">Mar 22, 2014</TD>
+  <TD align="center" class="duration">30 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="pnl">770.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">VXX</TD>
+  <TD align="center" class="n">200</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Feb 12, 2014</TD>
+  <TD align="center" class="closed">Oct 13, 2014</TD>
+  <TD align="center" class="duration">243 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">-5645.84</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">VXX</TD>
+  <TD align="center" class="n">200</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Jan 15, 2014</TD>
+  <TD align="center" class="closed">Jan 29, 2014</TD>
+  <TD align="center" class="duration">14 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">1054.0</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">TBF</TD>
+  <TD align="center" class="n">300</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Jun 24, 2013</TD>
+  <TD align="center" class="closed">Nov 22, 2016</TD>
+  <TD align="center" class="duration">1247 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="pnl">-4307.77</TD>
+ </TR>
+</TABLE>

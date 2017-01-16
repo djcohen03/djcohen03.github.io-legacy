@@ -1,0 +1,72 @@
+<TABLE border="1" style="border: 1px solid #000000; border-collapse: collapse;" cellpadding="4" id="historical" width="60%">
+ <TR>
+  <TH>Symbol</TH>
+  <TH>N</TH>
+  <TH>Type</TH>
+  <TH>Opened</TH>
+  <TH>Expiration</TH>
+  <TH>Duration</TH>
+  <TH>Management</TH>
+  <TH>PnL</TH>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">XLE</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jan 09, 2017</TD>
+  <TD align="center" class="closed">Feb 17, 2017</TD>
+  <TD align="center" class="duration">7 Days</TD>
+  <TD align="center" class="management">Open</TD>
+  <TD align="center" class="pnl">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jan 06, 2017</TD>
+  <TD align="center" class="closed">Feb 17, 2017</TD>
+  <TD align="center" class="duration">10 Days</TD>
+  <TD align="center" class="management">Open</TD>
+  <TD align="center" class="pnl">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
+  <TD align="center" class="n">-5</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jan 04, 2017</TD>
+  <TD align="center" class="closed">Feb 17, 2017</TD>
+  <TD align="center" class="duration">12 Days</TD>
+  <TD align="center" class="management">Open</TD>
+  <TD align="center" class="pnl">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">LULU</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jan 03, 2017</TD>
+  <TD align="center" class="closed">Jan 20, 2017</TD>
+  <TD align="center" class="duration">13 Days</TD>
+  <TD align="center" class="management">Open</TD>
+  <TD align="center" class="pnl">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">GPS</TD>
+  <TD align="center" class="n">-25</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Dec 24, 2016</TD>
+  <TD align="center" class="closed">Jan 20, 2017</TD>
+  <TD align="center" class="duration">23 Days</TD>
+  <TD align="center" class="management">Open</TD>
+  <TD align="center" class="pnl">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Dec 21, 2016</TD>
+  <TD align="center" class="closed">Jan 20, 2017</TD>
+  <TD align="center" class="duration">26 Days</TD>
+  <TD align="center" class="management">Open</TD>
+  <TD align="center" class="pnl">&nbsp;</TD>
+ </TR>
+</TABLE>
