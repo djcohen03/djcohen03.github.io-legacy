@@ -118,10 +118,10 @@ class TableCell (object):
 
     def __init__(self, text="", bgcolor=None, header=False, width=None,
                 align=None, char=None, charoff=None, valign=None, style=None,
-                attribs=None):
+                attribs=None, cellclass=None):
         """TableCell constructor"""
         self.text    = text
-        self.bgcolor = bgcolor
+        self.bgcolor = bgcolor 
         self.header  = header
         self.width   = width
         self.align   = align
@@ -130,6 +130,7 @@ class TableCell (object):
         self.valign  = valign
         self.style   = style
         self.attribs = attribs
+        self.cellclass  = cellclass
         if attribs==None:
             self.attribs = {}
 
@@ -143,6 +144,7 @@ class TableCell (object):
         if self.charoff: self.attribs['charoff'] = self.charoff
         if self.valign:  self.attribs['valign']  = self.valign
         if self.style:   self.attribs['style']   = self.style
+        if self.cellclass:  self.attribs['class']      = self.cellclass
         for attr in self.attribs:
             attribs_str += ' %s="%s"' % (attr, self.attribs[attr])
         if self.text:
@@ -174,7 +176,7 @@ class TableRow (object):
 
     def __init__(self, cells=None, bgcolor=None, header=False, attribs=None,
                 col_align=None, col_valign=None, col_char=None,
-                col_charoff=None, col_styles=None):
+                col_charoff=None, col_styles=None, col_classes=None):
         """TableCell constructor"""
         self.bgcolor     = bgcolor
         self.cells       = cells
@@ -185,6 +187,7 @@ class TableRow (object):
         self.col_charoff = col_charoff
         self.col_styles  = col_styles
         self.attribs     = attribs
+        self.col_classes = col_classes
         if attribs==None:
             self.attribs = {}
 
@@ -211,6 +214,8 @@ class TableRow (object):
             # apply column style if specified:
             if self.col_styles and cell.style==None:
                 cell.style = self.col_styles[col]
+            if self.col_classes and cell.cellclass==None:
+                cell.cellclass = self.col_classes[col]                
             result += str(cell)
         result += ' </TR>\n'
         return result
@@ -242,7 +247,7 @@ class Table (object):
     def __init__(self, rows=None, border='1', style=None, width=None,
                 cellspacing=None, cellpadding=4, attribs=None, header_row=None,
                 col_width=None, col_align=None, col_valign=None,
-                col_char=None, col_charoff=None, col_styles=None):
+                col_char=None, col_charoff=None, col_styles=None, col_classes=None):
         """TableCell constructor"""
         self.border = border
         self.style = style
@@ -262,6 +267,7 @@ class Table (object):
         self.col_charoff = col_charoff
         self.col_valign  = col_valign
         self.col_styles  = col_styles
+        self.col_classes = col_classes
 
     def __str__(self):
         """return the HTML code for the table as a string"""
@@ -325,6 +331,8 @@ class Table (object):
                 row.col_valign = self.col_valign
             if self.col_styles and not row.col_styles:
                 row.col_styles = self.col_styles
+            if self.col_classes and not row.col_classes:
+                row.col_classes = self.col_classes
             result += str(row)
         result += '</TABLE>'
         return result

@@ -6,6 +6,11 @@ from pprint import pprint
 import time
 import HTML
 
+import classes as c
+
+
+
+
 
 
 
@@ -18,34 +23,18 @@ def addToKeyList(key,item,dictionary):
 		dictionary[key] = [item]	
 
 
-
-
-
-def addToSpreadList(spreadID,option,allSpreads):
+def addToTradeList(spreadID,trade,allSpreads):
 	if spreadID not in allSpreads:
-		allSpreads[spreadID] = [option]
+		allSpreads[spreadID] = [trade]
 	else:
-		for contract in allSpreads[spreadID]:
-			b1 = option['exp'] 	  	 == contract['exp']
-			b2 = option['strike'] 	 == contract['strike']
-			b3 = option['sym'] 	  	 == contract['sym']
-			b4 = option['tradedate'] == contract['tradedate']
-			b5 = option['type'] 	 == contract['type']
-			if b1 & b2 & b3 & b4 & b5:
-				# need to combine two fills for same contract
-				comb = {'exp': option['exp'],
-						'fee': option['fee'] + contract['fee'],
-						'n': option['n'] + contract['n'],
-						'price': (option['price']*option['n'] + contract['price']*contract['n'])/(option['n'] + contract['n']),
-						'strike': option['strike'],
-						'sym': option['sym'],
-						'tradedate': option['tradedate'],
-						'type': option['type']}
-
-				allSpreads[spreadID].remove(contract)
-				allSpreads[spreadID] += [comb]
-				return
-		allSpreads[spreadID] += [option]
+		for loggedTrade in allSpreads[spreadID]:
+			if trade.contract.equals(loggedTrade.contract):
+				# combine equivalent contracts:
+				loggedTrade.n += trade.n
+				loggedTrade.fee += trade.fee
+				loggedTrade.price = ((trade.n * trade.contract.price) + (loggedTrade.n * loggedTrade.contract.price))/(loggedTrade.n + trade.n)
+				return		
+		allSpreads[spreadID] += [trade]
 
 
 
@@ -53,57 +42,38 @@ def addToSpreadList(spreadID,option,allSpreads):
 
 def identify_spread(option_list):
 	n = len(option_list)
-	if option_list[0]["exp"] == "NA":
-		return("Stock")
-
-	else:
-		if n == 1:
-			return("Single")
 		
-		if n == 2:
-			o1 = option_list[0]
-			o2 = option_list[1]
-			eqstrikes = (o1["strike"] == o2["strike"])
-			eqtypes   = (o1["type"] == o2["type"])
-			eqquant   = (o1["n"] == o2["n"])
-			eqstrikes = (o1["strike"] == o2["strike"])
-			eqexpir	  = (o1["exp"] == o2["exp"])
-
-			if not eqexpir and eqstrikes:
-				return("Calandar Spread")
-
-			if not eqstrikes:
-				if eqtypes:
-					if o1["type"] == "Call":
-						if o1["n"] > o2["n"]:
-							if o1["strike"] < o2["strike"]:
-								return("Bull Call Spread")
-							else:
-								return("Bear Call Spread")
-						else: 
-							if o1["strike"] > o2["strike"]:
-								return("Bull Call Spread")
-							else:
-								return("Bear Call Spread")
-					else:
-						if o1["n"] > o2["n"]:
-							if o1["strike"] < o2["strike"]:
-								return("Bull Put Spread")
-							else:
-								return("Bear Put Spread")
-						else: 
-							if o1["strike"] > o2["strike"]:
-								return("Bull Put Spread")
-							else:
-								return("Bear Put Spread")			
-			else:
-				return("Unknown")
+	if type(option_list[0]).__name__ == "StockTrade":
+		return(option_list[0])
 
 
-		if n%4 == 0:
-			return("Iron Condor")
+	if n == 1:
+		return(option_list[0])
+	
+	if n == 2:
+		c1 = option_list[0].contract
+		c2 = option_list[1].contract
+		t1 = option_list[0]
+		t2 = option_list[1]
 
-		return("Unknown")
+		eqstrikes = (c1.strike == c2.strike)
+		eqtypes   = (c1.contract_type == c2.contract_type)
+		eqquant   = (t1.n == t2.n)
+		eqexpir	  = (c1.expiration == c2.expiration)
+
+		if not eqexpir and eqstrikes:
+			return(c.CalandarSpread(option_list))
+
+		if not eqstrikes:
+			return(c.VerticalSpread(option_list))
+		else:
+			return("Unknown")
+
+
+	if n%4 == 0:
+		return(c.IronCondor(option_list))
+
+	return("Unknown")
 
 
 
@@ -166,8 +136,7 @@ def spreadSummary(spread):
 
 # Trades = pd.DataFrame(index = ['Symbol','N','Type','Strike','Exp','Price','Trade Date','Fee','Total Cost'])
 
-options = {}
-stocks  = {}
+trades = {}
 
 
 with open('transactions.csv', 'r') as csvreadfile:
@@ -186,9 +155,16 @@ with open('transactions.csv', 'r') as csvreadfile:
 
 		# Check if the trade was an option contract
 		option = False	
-		if len(contract) > 1:
+		if len(contract) > 1:	# i.e. most to specify than just symbol (expiration, strike, etc.)
 			option = True
 
+
+
+
+		# get symbol:
+		symbol = contract[0]
+		if symbol == "RUTW":
+			symbol = "RUT"
 
 		
 		if info[0] == "Bought" or info[0] == "Sold":
@@ -198,13 +174,6 @@ with open('transactions.csv', 'r') as csvreadfile:
 
 			# get trade price
 			price = float(row[5])
-
-			# get symbol:
-			symbol = contract[0]
-			if symbol == "RUTW":
-				symbol = "RUT"
-
-
 
 			# get trade quantity
 			if info[0] == "Sold":
@@ -220,89 +189,80 @@ with open('transactions.csv', 'r') as csvreadfile:
 			
 			
 			if option:
-				exp    = datetime.strptime("/".join(contract[1:4]), "%b/%d/%Y").date()
+				exp    = datetime.strptime("/".join(contract[1:4]), "%b/%d/%Y").date() 
 				spec   = contract[-1]
-				strike = float(contract[4])
+				strike = float(contract[-2])
 
-				spreadID = (symbol,tDate)
+				option = c.Option(symbol,strike,exp,spec, price)
+				trade = c.OptionsTrade(option,n,tDate)
 
-				addToSpreadList(spreadID,{"sym":symbol,"n":n,"type":spec,"strike":strike,"price":price,"exp":exp,"tradedate":tDate,"fee":fee},options)
-
-
+				spreadID = (symbol,tDate,"option")
+				addToTradeList(spreadID,trade,trades)
 
 			else:
-				exp = "NA"
-				spec   = "NA"
-				strike = "NA"
-				tradeID = (symbol,tDate)
+				
+				stock = c.Stock(symbol,price)
+				trade = c.StockTrade(stock,n,tDate)
+				tradeID = (symbol,tDate,"stock")
 
-				addToKeyList(tradeID,{"sym":symbol,"n":n,"price":price,"tradedate":tDate,"fee":fee,"exp":exp,"strike":"NA"},options)
+				addToTradeList(tradeID,trade,trades)
 				
 
+
+
+
+trade_list = []
+condors = []
+for tradegroup in trades:
+	trade_list += [trades[tradegroup]]
+
+
+trade_list = sorted(trade_list, key = lambda x: int(time.mktime(x[0].tradedate.timetuple())))
+
+for i in range(len(trade_list)):
+	trade_list[i] = identify_spread(trade_list[i])
+
+for i in range(len(trade_list)):
+	for j in range(i):
+		if trade_list[i].sameContract(trade_list[j]) and trade_list[j].openTrade and trade_list[i].openTrade:
+			trade_list[j].addTrade(trade_list[i])
+			trade_list[i].openTrade = False
+						
+
+for i in range(len(trade_list)):
+	if type(trade_list[i]).__name__ != "StockTrade":
+		if trade_list[i].isExpired():
+			trade_list[i].expired()
+
+
+
+historical = []
+
+for i in range(len(trade_list)):
+	if not trade_list[i].openTrade: 
+		if trade_list[i].pnl != 0:
+			historical.append(trade_list[i])
+
+
+
+header = c.ClosedTrade(historical[0]).attrList()
+closed_trades = []
+for i in range(len(historical)):
+	closed_trades.append(c.ClosedTrade(historical[i]).toList())
 	
-
-allTrades = []
-for k in options:
-	allTrades += [spreadSummary({"type":identify_spread(options[k]),"options":options[k]})]
+		
 
 
-
-
-allTrades = sorted(allTrades, key = lambda x: int(time.mktime(x[3].timetuple())))
-allTrades.reverse()
-for trade in allTrades:
-	trade[3] = trade[3].strftime("%b %d, %Y")
-	# print(trade)
-
-
+closed_trades.reverse()
+	
 			
-htmltablecode = HTML.table(allTrades, header_row=["Symbol", 'Type', 'N', 'Date Placed', 'Expiration','Price', 'Cost', 'Fee'], width = '100%')
-
+htmltablecode = HTML.table(closed_trades, header_row=header, 
+										  width = '60%',
+										  col_align = ['left','left','left','left','left','left','center'],
+										  # col_styles=['background-color:tan','','','','','',''],
+										  col_classes = ['','','','','','','pnl'])
 with open("htmlTable.txt", "w") as text_file:
     text_file.write(htmltablecode)
-
-
-
-
-
-
-for trade in allTrades:
-	prev = True
-	for prevTrade in allTrades:
-		if trade == prevTrade:
-			prev = False
-
-
-		if prev:
-			# searching previous trades for opening
-			b1 = trade[0] == prevTrade[0]		# same symbol
-			b2 = trade[1] == prevTrade[1]		# same spread
-			b3 = trade[2] == -prevTrade[2]		# same quantity n
-			b4 = trade[4] == prevTrade[4]		# same expiration/both "NA"
-			# b5 = trade[1] != "Stock"
-			b5 = True
-
-			if b1 & b2 & b3 & b4 & b5:
-				print("\n\nOpen:")
-				print(prevTrade)
-				print("Close:")
-				print(trade)
-				print("PNL:")
-				print(-(prevTrade[5] + trade[5]) - (trade[6] + prevTrade[6]))
-				break
-		else:
-			# searching  trades for opening
-			pass
-
-
-
-
-
-
-
-
-
-
 
 
 
