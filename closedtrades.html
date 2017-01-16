@@ -1,120 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="tablestyle.css">
 	    <title> History </title>
 
-
-
-	    <!-- Database Setup -->
-		<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
-		<script>
-
-			// // MARK: Firebase Initialization
-			// var config = {
-			// 	apiKey: "AIzaSyB2Joljxr_Veu5psV2SdGLhvsqJf6DFTlE",
-			// 	authDomain: "tradetracking-66f5a.firebaseapp.com",
-			// 	databaseURL: "https://tradetracking-66f5a.firebaseio.com",
-			// 	storageBucket: "tradetracking-66f5a.appspot.com",
-			// 	messagingSenderId: "1069435222179"
-			// };
-			// firebase.initializeApp(config);
-
-			// // Get a reference to the database service
-			// var database = firebase.database();
-
-
-
-
-			// // MARK: my functions
-			// function saveTrade(trade, tid) {
-			// 	database.ref('Closed Trades/' + tid).set(trade);
-			// }
-
-
-
-
-
-			// // MARK: Load Trades Into Table
-			// var ref = firebase.database().ref('Closed Trades/');
-			// ref.on('value', function(snapshot) {
-
-
-			// 	// Find a <table> element with id="TradeTable":
-			// 	var table = document.getElementById("TradeTable");
-				
-			// 	// Create table header
-			// 	var header = table.createTHead();		
-			// 	var row = header.insertRow(0);     		
-			// 	// Define Columns
-			// 	var cell = row.insertCell(0);
-			// 	cell.innerHTML = "Stock".bold();
-			// 	var cell = row.insertCell(1);
-			// 	cell.innerHTML = 'Quantity'.bold();
-			// 	var cell = row.insertCell(2);
-			// 	cell.innerHTML = 'Long Put'.bold();
-			// 	var cell = row.insertCell(3);
-			// 	cell.innerHTML = 'Short Put'.bold();
-			// 	var cell = row.insertCell(4);
-			// 	cell.innerHTML = 'Short Call'.bold();
-			// 	var cell = row.insertCell(5);
-			// 	cell.innerHTML = 'Long Call'.bold();
-			// 	var cell = row.insertCell(6);
-			// 	cell.innerHTML = 'Maturity'.bold();
-			// 	var cell = row.insertCell(7);
-			// 	cell.innerHTML = 'Opening Price'.bold();
-			// 	var cell = row.insertCell(8);
-			// 	cell.innerHTML = 'Closing Price'.bold();
-			// 	var cell = row.insertCell(9);
-			// 	cell.innerHTML = 'PnL'.bold();
-
-
-			// 					// Populate Table with trade info
-			// 	// (loop through trades)
-			// 	var k = 1;								// row index: k
-			// 	for(var i in snapshot.val()){
-					
-			// 		var trade = snapshot.val()[i];  	// trade id: i
-			// 		var row   = table.insertRow(k++);	// Create the kth empty row, add it to the table:
-
-			// 		// Insert new cells 					
-			// 		var cell = row.insertCell(0);
-			// 		cell.innerHTML = trade["Stock"];
-			// 		var cell = row.insertCell(1);
-			// 		cell.innerHTML = trade['Quantity'];
-			// 		var cell = row.insertCell(2);
-			// 		cell.innerHTML = trade['Long Put'];
-			// 		var cell = row.insertCell(3);
-			// 		cell.innerHTML = trade['Short Put'];
-			// 		var cell = row.insertCell(4);
-			// 		cell.innerHTML = trade['Short Call'];
-			// 		var cell = row.insertCell(5);
-			// 		cell.innerHTML = trade['Long Call'];
-			// 		var cell = row.insertCell(6);
-			// 		cell.innerHTML = trade['Maturity'];
-			// 		var cell = row.insertCell(7);
-			// 		cell.innerHTML = trade['Opening Price'];
-			// 		var cell = row.insertCell(8);
-			// 		cell.innerHTML = trade['Closing Price'];
-			// 		var cell = row.insertCell(9);
-			// 		cell.innerHTML = "(calculate)";
-			// 	}
-			// });	
-            
-
-
-
-		</script>
-
-		
-
-
-		<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-app.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-auth.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-database.js"></script>
-
-		<!-- Leave out Storage -->
-		<!-- <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-storage.js"></script> -->
 
 	</head>
 	<body>
@@ -143,7 +32,7 @@
 			    rawFile.send(null);
 			}	
 
-			readTextFile("file:///Users/david/Desktop/djcohen03.github.io/Data/htmlTable.txt");	
+			readTextFile("file:///Users/david/Desktop/djcohen03.github.io/htmlTable.txt");	
 
 
 			console.log("here!!!!")
