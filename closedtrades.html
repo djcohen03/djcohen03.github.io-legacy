@@ -96,7 +96,16 @@
 					}
 				}
 			}
+			function updateFeeColors(){
+				var pnl_cells = document.getElementsByClassName("fee");
+				var i;
+				var pnl;
+				for (i = 0; i < pnl_cells.length; i++) {
+					pnl_cells[i].style.color = "blue";
+				}
+			}
 			updatePnlColors();
+			// updateFeeColors();
 
 
 		</script>
