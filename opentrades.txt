@@ -1,4 +1,4 @@
-<TABLE cellpadding="4" width="90%" id="historical" border="1" style="border: 1px solid #000000; border-collapse: collapse;">
+<TABLE width="90%" id="historical" cellpadding="4" border="1" style="border: 1px solid #000000; border-collapse: collapse;">
  <TR>
   <TH>Symbol</TH>
   <TH>N</TH>
@@ -11,78 +11,78 @@
   <TH>Pnl</TH>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">CTSH</TD>
-  <TD align="center" class="n">-20</TD>
-  <TD align="center" class="spread">Iron Condor</TD>
-  <TD align="center" class="opened">Feb 07, 2017</TD>
+  <TD align="center" style="font-weight: bold" class="symbol">CTSH</TD>
+  <TD align="center" class="n">10</TD>
+  <TD align="center" class="spread">Vertical Spread</TD>
+  <TD align="center" class="opened">Feb 09, 2017</TD>
   <TD align="center" class="closed">Feb 10, 2017</TD>
-  <TD align="center" class="duration">2 Days</TD>
+  <TD align="center" class="duration">1 Days</TD>
   <TD align="center" class="management">Open</TD>
-  <TD align="center" class="fee">58.99</TD>
+  <TD align="center" class="fee">18.5</TD>
   <TD align="center" class="pnl">&nbsp;</TD>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">SPY</TD>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
   <TD align="center" class="n">-25</TD>
   <TD align="center" class="spread">Iron Condor</TD>
   <TD align="center" class="opened">Feb 07, 2017</TD>
   <TD align="center" class="closed">Apr 21, 2017</TD>
-  <TD align="center" class="duration">2 Days</TD>
+  <TD align="center" class="duration">3 Days</TD>
   <TD align="center" class="management">Open</TD>
   <TD align="center" class="fee">72.58</TD>
   <TD align="center" class="pnl">&nbsp;</TD>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">CSX</TD>
+  <TD align="center" style="font-weight: bold" class="symbol">CTSH</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Feb 07, 2017</TD>
+  <TD align="center" class="closed">Feb 10, 2017</TD>
+  <TD align="center" class="duration">3 Days</TD>
+  <TD align="center" class="management">Open</TD>
+  <TD align="center" class="fee">58.99</TD>
+  <TD align="center" class="pnl">&nbsp;</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">CSX</TD>
   <TD align="center" class="n">-15</TD>
   <TD align="center" class="spread">Iron Condor</TD>
   <TD align="center" class="opened">Jan 24, 2017</TD>
   <TD align="center" class="closed">Mar 17, 2017</TD>
-  <TD align="center" class="duration">16 Days</TD>
+  <TD align="center" class="duration">17 Days</TD>
   <TD align="center" class="management">Open</TD>
   <TD align="center" class="fee">56.44</TD>
   <TD align="center" class="pnl">&nbsp;</TD>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">SPY</TD>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
   <TD align="center" class="n">-25</TD>
   <TD align="center" class="spread">Vertical Spread</TD>
   <TD align="center" class="opened">Jan 20, 2017</TD>
   <TD align="center" class="closed">Feb 17, 2017</TD>
-  <TD align="center" class="duration">20 Days</TD>
+  <TD align="center" class="duration">21 Days</TD>
   <TD align="center" class="management">Open</TD>
   <TD align="center" class="fee">48.72</TD>
   <TD align="center" class="pnl">&nbsp;</TD>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">DLTR</TD>
+  <TD align="center" style="font-weight: bold" class="symbol">DLTR</TD>
   <TD align="center" class="n">-15</TD>
   <TD align="center" class="spread">Iron Condor</TD>
   <TD align="center" class="opened">Jan 18, 2017</TD>
   <TD align="center" class="closed">Feb 17, 2017</TD>
-  <TD align="center" class="duration">22 Days</TD>
+  <TD align="center" class="duration">23 Days</TD>
   <TD align="center" class="management">Open</TD>
   <TD align="center" class="fee">56.43</TD>
   <TD align="center" class="pnl">&nbsp;</TD>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">XLE</TD>
-  <TD align="center" class="n">-15</TD>
-  <TD align="center" class="spread">Iron Condor</TD>
-  <TD align="center" class="opened">Jan 09, 2017</TD>
-  <TD align="center" class="closed">Feb 17, 2017</TD>
-  <TD align="center" class="duration">31 Days</TD>
-  <TD align="center" class="management">Open</TD>
-  <TD align="center" class="fee">56.43</TD>
-  <TD align="center" class="pnl">&nbsp;</TD>
- </TR>
- <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">SPY</TD>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
   <TD align="center" class="n">-15</TD>
   <TD align="center" class="spread">Iron Condor</TD>
   <TD align="center" class="opened">Jan 06, 2017</TD>
   <TD align="center" class="closed">Feb 17, 2017</TD>
-  <TD align="center" class="duration">34 Days</TD>
+  <TD align="center" class="duration">35 Days</TD>
   <TD align="center" class="management">Open</TD>
   <TD align="center" class="fee">56.45</TD>
   <TD align="center" class="pnl">&nbsp;</TD>
