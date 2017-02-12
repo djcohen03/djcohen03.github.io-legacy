@@ -4,6 +4,21 @@
 		<link rel="stylesheet" type="text/css" href="tablestyle.css">
 	    <title> History </title>
 
+	    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyBtq-xrmSjvE_SUk5JAhJEaH_-OFh1F34M",
+		    authDomain: "trading-notes.firebaseapp.com",
+		    databaseURL: "https://trading-notes.firebaseio.com",
+		    storageBucket: "trading-notes.appspot.com",
+		    messagingSenderId: "988955763587"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+
+
+
 	    <script type="text/javascript">
 
 			function sortTable(tableid,col, asc){
@@ -82,6 +97,16 @@
 			}	
 
 			readTextFile("lastupdate.txt");	
+
+		</script>
+
+		Notes:<br>
+		<textarea name="Text1" cols="40" rows="5" style="margin: 2px; width: 584px; height: 65px; resize:none"></textarea>
+		<br>
+		<button type="button">Submit</button>
+		<br><br>
+		<script>
+
 			readTextFile("historical.txt");	
 
 			function updatePnlColors(){
