@@ -1,2 +1,2 @@
-<p id='lastupdate'>PNL: 13410.0<br>Fees: 1299.95<br>Last Update:  Feb 12, 2017   01:19 PM<br><br>Notes:  
+<p id='lastupdate'><b>PNL:</b> 13410.0<br><b>Fees:</b> 1299.95<br><b>Last Update:</b>  Feb 12, 2017   01:21 PM<br><br><b>Notes:</b>  
 		<br></p>
