@@ -1,2 +1,1 @@
-<p id='lastupdate'><b>PNL:</b>&nbsp;&nbsp;&nbsp;&nbsp;$13,410.0<br><b>Fees:</b>  &nbsp;-$1,299.95<br><b>Last Update:</b>  Feb 12, 2017   01:27 PM<br><br><b>Notes:</b>  
-		<br></p>
+<p id='lastupdate'><b>PNL:</b>&nbsp;&nbsp;&nbsp;&nbsp;$13,410.0<br><b>Fees:</b>  &nbsp;-$1,299.95<br><b>Last Update:</b>  Feb 17, 2017   09:24 AM<br></p>
