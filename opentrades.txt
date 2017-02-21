@@ -1,4 +1,4 @@
-<TABLE cellpadding="4" border="1" width="90%" id="historical" style="border: 1px solid #000000; border-collapse: collapse;">
+<TABLE id="historical" border="1" width="90%" style="border: 1px solid #000000; border-collapse: collapse;" cellpadding="4">
  <TR>
   <TH>Symbol</TH>
   <TH>N</TH>
@@ -11,7 +11,7 @@
   <TH>Pnl</TH>
  </TR>
  <TR>
-  <TD style="font-weight: bold" class="symbol" align="center">CTSH</TD>
+  <TD class="symbol" style="font-weight: bold" align="center">CTSH</TD>
   <TD class="n" align="center">-1000</TD>
   <TD class="spread" align="center">Stock</TD>
   <TD class="opened" align="center">Feb 13, 2017</TD>
@@ -22,7 +22,7 @@
   <TD class="pnl" align="center">&nbsp;</TD>
  </TR>
  <TR>
-  <TD style="font-weight: bold" class="symbol" align="center">SPY</TD>
+  <TD class="symbol" style="font-weight: bold" align="center">SPY</TD>
   <TD class="n" align="center">-25</TD>
   <TD class="spread" align="center">Iron Condor</TD>
   <TD class="opened" align="center">Feb 07, 2017</TD>
