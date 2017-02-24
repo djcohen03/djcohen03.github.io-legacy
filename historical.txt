@@ -1,4 +1,4 @@
-<TABLE cellpadding="4" width="90%" border="1" style="border: 1px solid #000000; border-collapse: collapse;" id="historical">
+<TABLE id="historical" width="90%" cellpadding="4" border="1" style="border: 1px solid #000000; border-collapse: collapse;">
  <TR>
   <TH>Symbol</TH>
   <TH>N</TH>
