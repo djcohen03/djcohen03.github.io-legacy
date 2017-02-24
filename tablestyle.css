@@ -68,3 +68,28 @@ ul.nav{
 
 
 
+/* Special Links*/
+a.special {
+  font-size:1.5em;
+  color:DarkRed;
+}
+a:link.special {
+    text-decoration: none;
+}
+a:visited.special {
+    text-decoration: none;
+}
+a:hover.special {
+    text-decoration: underline;
+}
+a:active.special {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
