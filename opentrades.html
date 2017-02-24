@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="tablestyle.css">
-	    <title> All Trades </title>
+	    <title> Open Trades </title>
 
 	    <script type="text/javascript">
 
@@ -54,13 +54,15 @@
 
 	</head>
 	<body>
-		
+	   <ul class='nav'>
+            <li class='nav'><a  class='nav' href = "home.html" id='Home'>Home</a></li>
+            <li class='nav'><a  class='nav' href = "closedtrades.html">Closed Trades</a></li>
+            <li class='nav'><a  class='nav' href = "#">Open Trades</a></li>
+        </ul>		
 
 		<!-- MARK: Page Setup -->
-		<h1>All Trades</h1>
-		<br>
-		<a href="home.html"> Home </a>
-		<br><br>
+		<h1>Open Trades</h1>
+		<br><br><br><br>
 		<!-- <button onclick="sortTable('historical',7,-1)">Sort</button> -->
 		<script>
 
@@ -82,7 +84,7 @@
 			}	
 
 			// readTextFile("lastupdate.txt");	
-			readTextFile("opentrades.txt");	
+			// readTextFile("opentrades.txt");	
 
 			function updatePnlColors(){
 				var pnl_cells = document.getElementsByClassName("pnl");
@@ -97,7 +99,7 @@
 					}
 				}
 			}
-			updatePnlColors();
+			// updatePnlColors();
 
 
 		</script>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="tablestyle.css">
 	    <title> Home </title>
 		<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
 	    <script type="text/javascript">
@@ -20,15 +21,47 @@
 	    </script>
    </head>
 	<body>
+        <ul class='nav'>
+            <li class='nav'><a  class='nav' href = "#" id='Home'>Home</a></li>
+            <li class='nav'><a  class='nav' href = "closedtrades.html">Closed Trades</a></li>
+            <li class='nav'><a  class='nav' href = "opentrades.html">Open Trades</a></li>
+        </ul>
 
 		<!-- MARK: Page Setup -->
 		<h1>Home</h1>
-		<br><br>
-		<a href="opentrades.html"> Open Trades </a>
-		<br>
-		<a href="closedtrades.html"> Closed Trades </a>
-		<br>
-		<a href="login.html"> Logout </a>
+
+		<script>
+
+ 			function readTextFile(file){
+			    var rawFile = new XMLHttpRequest();
+			    rawFile.open("GET", file, false);
+			    rawFile.onreadystatechange = function ()
+			    {
+			        if(rawFile.readyState === 4)
+			        {
+			            if(rawFile.status === 200 || rawFile.status == 0)
+			            {
+			                var allText = rawFile.responseText;
+			                document.write(allText)
+			            }
+			        }
+			    }
+			    rawFile.send(null);
+			}	
+
+			readTextFile("lastupdate.txt");
+		</script>
+
+
+		<a href="pnl.png">
+			<img src="pnl.png" style="width:550px;height:300px;">
+		</a>
+
+
+
+
+		<br><br><br>
+		<a href="login.html">Log Out</a>
 
 
 
