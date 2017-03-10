@@ -1,4 +1,4 @@
-<TABLE width="90%" id="historical" style="border: 1px solid #000000; border-collapse: collapse;" border="1" cellpadding="4">
+<TABLE border="1" width="90%" id="historical" style="border: 1px solid #000000; border-collapse: collapse;" cellpadding="4">
  <TR>
   <TH>Symbol</TH>
   <TH>N</TH>
@@ -11,69 +11,69 @@
   <TH>Pnl</TH>
  </TR>
  <TR>
-  <TD class="symbol" style="font-weight: bold" align="center">ESPR</TD>
-  <TD class="n" align="center">-20</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Mar 03, 2017</TD>
-  <TD class="closed" align="center">Mar 17, 2017</TD>
-  <TD class="duration" align="center">6 Days</TD>
-  <TD class="management" align="center">Open</TD>
-  <TD class="fee" align="center">59.05</TD>
-  <TD class="pnl" align="center">&nbsp;</TD>
+  <TD align="center" class="symbol" style="font-weight: bold">ESPR</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Mar 03, 2017</TD>
+  <TD align="center" class="closed">Mar 17, 2017</TD>
+  <TD align="center" class="duration">7 Days</TD>
+  <TD align="center" class="management">Open</TD>
+  <TD align="center" class="fee">59.05</TD>
+  <TD align="center" class="pnl">&nbsp;</TD>
  </TR>
  <TR>
-  <TD class="symbol" style="font-weight: bold" align="center">VMC</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Feb 27, 2017</TD>
-  <TD class="closed" align="center">Mar 17, 2017</TD>
-  <TD class="duration" align="center">10 Days</TD>
-  <TD class="management" align="center">Open</TD>
-  <TD class="fee" align="center">32.05</TD>
-  <TD class="pnl" align="center">&nbsp;</TD>
+  <TD align="center" class="symbol" style="font-weight: bold">VMC</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Feb 27, 2017</TD>
+  <TD align="center" class="closed">Mar 17, 2017</TD>
+  <TD align="center" class="duration">11 Days</TD>
+  <TD align="center" class="management">Open</TD>
+  <TD align="center" class="fee">32.05</TD>
+  <TD align="center" class="pnl">&nbsp;</TD>
  </TR>
  <TR>
-  <TD class="symbol" style="font-weight: bold" align="center">LULU</TD>
-  <TD class="n" align="center">-40</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Feb 27, 2017</TD>
-  <TD class="closed" align="center">Mar 17, 2017</TD>
-  <TD class="duration" align="center">10 Days</TD>
-  <TD class="management" align="center">Open</TD>
-  <TD class="fee" align="center">113.0</TD>
-  <TD class="pnl" align="center">&nbsp;</TD>
+  <TD align="center" class="symbol" style="font-weight: bold">LULU</TD>
+  <TD align="center" class="n">-40</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Feb 27, 2017</TD>
+  <TD align="center" class="closed">Mar 17, 2017</TD>
+  <TD align="center" class="duration">11 Days</TD>
+  <TD align="center" class="management">Open</TD>
+  <TD align="center" class="fee">113.0</TD>
+  <TD align="center" class="pnl">&nbsp;</TD>
  </TR>
  <TR>
-  <TD class="symbol" style="font-weight: bold" align="center">TMUS</TD>
-  <TD class="n" align="center">-25</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Feb 21, 2017</TD>
-  <TD class="closed" align="center">Mar 17, 2017</TD>
-  <TD class="duration" align="center">16 Days</TD>
-  <TD class="management" align="center">Open</TD>
-  <TD class="fee" align="center">72.49</TD>
-  <TD class="pnl" align="center">&nbsp;</TD>
+  <TD align="center" class="symbol" style="font-weight: bold">TMUS</TD>
+  <TD align="center" class="n">-25</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Feb 21, 2017</TD>
+  <TD align="center" class="closed">Mar 17, 2017</TD>
+  <TD align="center" class="duration">17 Days</TD>
+  <TD align="center" class="management">Open</TD>
+  <TD align="center" class="fee">72.49</TD>
+  <TD align="center" class="pnl">&nbsp;</TD>
  </TR>
  <TR>
-  <TD class="symbol" style="font-weight: bold" align="center">RUT</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Feb 21, 2017</TD>
-  <TD class="closed" align="center">Mar 17, 2017</TD>
-  <TD class="duration" align="center">16 Days</TD>
-  <TD class="management" align="center">Open</TD>
-  <TD class="fee" align="center">32.0</TD>
-  <TD class="pnl" align="center">&nbsp;</TD>
+  <TD align="center" class="symbol" style="font-weight: bold">RUT</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Feb 21, 2017</TD>
+  <TD align="center" class="closed">Mar 17, 2017</TD>
+  <TD align="center" class="duration">17 Days</TD>
+  <TD align="center" class="management">Open</TD>
+  <TD align="center" class="fee">32.0</TD>
+  <TD align="center" class="pnl">&nbsp;</TD>
  </TR>
  <TR>
-  <TD class="symbol" style="font-weight: bold" align="center">SPY</TD>
-  <TD class="n" align="center">-25</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Feb 07, 2017</TD>
-  <TD class="closed" align="center">Apr 21, 2017</TD>
-  <TD class="duration" align="center">30 Days</TD>
-  <TD class="management" align="center">Open</TD>
-  <TD class="fee" align="center">72.58</TD>
-  <TD class="pnl" align="center">&nbsp;</TD>
+  <TD align="center" class="symbol" style="font-weight: bold">SPY</TD>
+  <TD align="center" class="n">-25</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Feb 07, 2017</TD>
+  <TD align="center" class="closed">Apr 21, 2017</TD>
+  <TD align="center" class="duration">31 Days</TD>
+  <TD align="center" class="management">Open</TD>
+  <TD align="center" class="fee">72.58</TD>
+  <TD align="center" class="pnl">&nbsp;</TD>
  </TR>
 </TABLE>
