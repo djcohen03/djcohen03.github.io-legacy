@@ -1,4 +1,4 @@
-<TABLE id="historical" width="90%" cellpadding="4" border="1" style="border: 1px solid #000000; border-collapse: collapse;">
+<TABLE cellpadding="4" border="1" width="90%" style="border: 1px solid #000000; border-collapse: collapse;" id="historical">
  <TR>
   <TH>Symbol</TH>
   <TH>N</TH>
@@ -11,7 +11,7 @@
   <TH>Pnl</TH>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">NUE</TD>
+  <TD align="center" style="font-weight: bold" class="symbol">NUE</TD>
   <TD align="center" class="n">-20</TD>
   <TD align="center" class="spread">Iron Condor</TD>
   <TD align="center" class="opened">Mar 07, 2017</TD>
@@ -22,7 +22,7 @@
   <TD align="center" class="pnl">&nbsp;</TD>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">ESPR</TD>
+  <TD align="center" style="font-weight: bold" class="symbol">ESPR</TD>
   <TD align="center" class="n">-20</TD>
   <TD align="center" class="spread">Iron Condor</TD>
   <TD align="center" class="opened">Mar 03, 2017</TD>
@@ -33,7 +33,7 @@
   <TD align="center" class="pnl">&nbsp;</TD>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">TMUS</TD>
+  <TD align="center" style="font-weight: bold" class="symbol">TMUS</TD>
   <TD align="center" class="n">-25</TD>
   <TD align="center" class="spread">Iron Condor</TD>
   <TD align="center" class="opened">Feb 21, 2017</TD>
@@ -44,7 +44,7 @@
   <TD align="center" class="pnl">&nbsp;</TD>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">SPY</TD>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
   <TD align="center" class="n">-25</TD>
   <TD align="center" class="spread">Iron Condor</TD>
   <TD align="center" class="opened">Feb 07, 2017</TD>
