@@ -1,4 +1,4 @@
-<TABLE width="90%" id="historical" border="1" cellpadding="4" style="border: 1px solid #000000; border-collapse: collapse;">
+<TABLE id="historical" width="90%" cellpadding="4" border="1" style="border: 1px solid #000000; border-collapse: collapse;">
  <TR>
   <TH>Symbol</TH>
   <TH>N</TH>
@@ -144,18 +144,6 @@
   <TD align="center" class="risk">5775.0</TD>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">SPY</TD>
-  <TD align="center" class="n">-25</TD>
-  <TD align="center" class="spread">Vertical Spread</TD>
-  <TD align="center" class="opened">Jan 20, 2017</TD>
-  <TD align="center" class="closed">Feb 17, 2017</TD>
-  <TD align="center" class="duration">28 Days</TD>
-  <TD align="center" class="management">Expired</TD>
-  <TD align="center" class="fee">48.72</TD>
-  <TD align="center" class="pnl">1075.0</TD>
-  <TD align="center" class="risk">-11425.0</TD>
- </TR>
- <TR>
   <TD align="center" class="symbol" style="font-weight: bold">RUT</TD>
   <TD align="center" class="n">-5</TD>
   <TD align="center" class="spread">Iron Condor</TD>
@@ -166,6 +154,18 @@
   <TD align="center" class="fee">43.95</TD>
   <TD align="center" class="pnl">950.0</TD>
   <TD align="center" class="risk">8550.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" class="symbol" style="font-weight: bold">SPY</TD>
+  <TD align="center" class="n">-25</TD>
+  <TD align="center" class="spread">Vertical Spread</TD>
+  <TD align="center" class="opened">Jan 20, 2017</TD>
+  <TD align="center" class="closed">Feb 17, 2017</TD>
+  <TD align="center" class="duration">28 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">48.72</TD>
+  <TD align="center" class="pnl">1075.0</TD>
+  <TD align="center" class="risk">-11425.0</TD>
  </TR>
  <TR>
   <TD align="center" class="symbol" style="font-weight: bold">DLTR</TD>
@@ -240,18 +240,6 @@
   <TD align="center" class="risk">5955.0</TD>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">RUT</TD>
-  <TD align="center" class="n">-6</TD>
-  <TD align="center" class="spread">Iron Condor</TD>
-  <TD align="center" class="opened">Dec 24, 2016</TD>
-  <TD align="center" class="closed">Jan 03, 2017</TD>
-  <TD align="center" class="duration">10 Days</TD>
-  <TD align="center" class="management">Managed @ 32%</TD>
-  <TD align="center" class="fee">56.78</TD>
-  <TD align="center" class="pnl">876.0</TD>
-  <TD align="center" class="risk">9324.0</TD>
- </TR>
- <TR>
   <TD align="center" class="symbol" style="font-weight: bold">GPS</TD>
   <TD align="center" class="n">-25</TD>
   <TD align="center" class="spread">Iron Condor</TD>
@@ -262,6 +250,18 @@
   <TD align="center" class="fee">87.38</TD>
   <TD align="center" class="pnl">800.0</TD>
   <TD align="center" class="risk">2950.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" class="symbol" style="font-weight: bold">RUT</TD>
+  <TD align="center" class="n">-6</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Dec 24, 2016</TD>
+  <TD align="center" class="closed">Jan 03, 2017</TD>
+  <TD align="center" class="duration">10 Days</TD>
+  <TD align="center" class="management">Managed @ 32%</TD>
+  <TD align="center" class="fee">56.78</TD>
+  <TD align="center" class="pnl">876.0</TD>
+  <TD align="center" class="risk">9324.0</TD>
  </TR>
  <TR>
   <TD align="center" class="symbol" style="font-weight: bold">SPY</TD>
@@ -336,18 +336,6 @@
   <TD align="center" class="risk">inf</TD>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">SPY</TD>
-  <TD align="center" class="n">-20</TD>
-  <TD align="center" class="spread">Iron Condor</TD>
-  <TD align="center" class="opened">Nov 15, 2016</TD>
-  <TD align="center" class="closed">Dec 16, 2016</TD>
-  <TD align="center" class="duration">31 Days</TD>
-  <TD align="center" class="management">Expired</TD>
-  <TD align="center" class="fee">71.97</TD>
-  <TD align="center" class="pnl">1300.0</TD>
-  <TD align="center" class="risk">2700.0</TD>
- </TR>
- <TR>
   <TD align="center" class="symbol" style="font-weight: bold">RUT</TD>
   <TD align="center" class="n">4</TD>
   <TD align="center" class="spread">Calandar Spread</TD>
@@ -358,6 +346,18 @@
   <TD align="center" class="fee">32.34</TD>
   <TD align="center" class="pnl">-2512.0</TD>
   <TD align="center" class="risk">5272.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" class="symbol" style="font-weight: bold">SPY</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Nov 15, 2016</TD>
+  <TD align="center" class="closed">Dec 16, 2016</TD>
+  <TD align="center" class="duration">31 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">71.97</TD>
+  <TD align="center" class="pnl">1300.0</TD>
+  <TD align="center" class="risk">2700.0</TD>
  </TR>
  <TR>
   <TD align="center" class="symbol" style="font-weight: bold">SPY</TD>
