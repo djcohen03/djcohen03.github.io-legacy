@@ -1,1 +1,1 @@
-<p id='lastupdate'><b>PNL:</b>&nbsp;&nbsp;&nbsp;&nbsp;$14,917.5
+<p id='lastupdate'><b>PNL:</b>&nbsp;&nbsp;&nbsp;&nbsp;$12,652.5
