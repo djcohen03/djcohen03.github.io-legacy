@@ -62,7 +62,7 @@
 
 		<!-- MARK: Page Setup -->
 		<h1>Open Trades</h1>
-		<br><br><br><br>
+		<br><br>
 		<!-- <button onclick="sortTable('historical',7,-1)">Sort</button> -->
 		<script>
 
@@ -84,7 +84,7 @@
 			}	
 
 			// readTextFile("lastupdate.txt");	
-			// readTextFile("opentrades.txt");	
+			readTextFile("opentrades.txt");	
 
 			function updatePnlColors(){
 				var pnl_cells = document.getElementsByClassName("pnl");
@@ -99,7 +99,7 @@
 					}
 				}
 			}
-			// updatePnlColors();
+			updatePnlColors();
 
 
 		</script>
