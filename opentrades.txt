@@ -1,35 +1,32 @@
-<TABLE border="1" cellpadding="4" style="border: 1px solid #000000; border-collapse: collapse;" width="90%" id="historical">
+<TABLE style="border: 1px solid #000000; border-collapse: collapse;" cellpadding="4" width="40%" border="1" id="open">
  <TR>
   <TH>Symbol</TH>
-  <TH>N</TH>
-  <TH>Type</TH>
-  <TH>Opened</TH>
-  <TH>Expiration</TH>
-  <TH>Duration</TH>
-  <TH>Management</TH>
-  <TH>Fee</TH>
+  <TH>Qty</TH>
+  <TH>DTE</TH>
   <TH>Pnl</TH>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">NUE</TD>
-  <TD align="center" class="n">-20</TD>
-  <TD align="center" class="spread">Iron Condor</TD>
-  <TD align="center" class="opened">Mar 07, 2017</TD>
-  <TD align="center" class="closed">Mar 31, 2017</TD>
-  <TD align="center" class="duration">11 Days</TD>
-  <TD align="center" class="management">Open</TD>
-  <TD align="center" class="fee">58.97</TD>
-  <TD align="center" class="pnl">&nbsp;</TD>
+  <TD style="font-weight: bold" class="Symbol" align="center">ESPR</TD>
+  <TD class="Qty" align="center">0</TD>
+  <TD class="DTE" align="center">-1</TD>
+  <TD class="pnl" align="center">460.00 </TD>
  </TR>
  <TR>
-  <TD align="center" class="symbol" style="font-weight: bold">SPY</TD>
-  <TD align="center" class="n">-25</TD>
-  <TD align="center" class="spread">Iron Condor</TD>
-  <TD align="center" class="opened">Feb 07, 2017</TD>
-  <TD align="center" class="closed">Apr 21, 2017</TD>
-  <TD align="center" class="duration">39 Days</TD>
-  <TD align="center" class="management">Open</TD>
-  <TD align="center" class="fee">72.58</TD>
-  <TD align="center" class="pnl">&nbsp;</TD>
+  <TD style="font-weight: bold" class="Symbol" align="center">NUE</TD>
+  <TD class="Qty" align="center">20</TD>
+  <TD class="DTE" align="center">13</TD>
+  <TD class="pnl" align="center">-330.00</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" class="Symbol" align="center">SPY</TD>
+  <TD class="Qty" align="center">25</TD>
+  <TD class="DTE" align="center">34</TD>
+  <TD class="pnl" align="center">-437.50</TD>
+ </TR>
+ <TR>
+  <TD style="font-weight: bold" class="Symbol" align="center">TMUS</TD>
+  <TD class="Qty" align="center">25</TD>
+  <TD class="DTE" align="center">-1</TD>
+  <TD class="pnl" align="center">850.00 </TD>
  </TR>
 </TABLE>
