@@ -61,15 +61,13 @@
         </ul>		
 
 		<!-- MARK: Page Setup -->
-		<h1>Open Trades</h1>
-		<br><br>
+		<h1>Open Trades</h1><br>
 		<!-- <button onclick="sortTable('historical',7,-1)">Sort</button> -->
-
 		<a class='special' 
 		   href='https://docs.google.com/spreadsheets/d/1OWzfmvTqRXbOv3x2ICLN64VhYuV2g5khbBYZtICWSzM/edit?ts=57e2c00f#gid=0'
 		   target='_blank'>Open Trade Tracking</a>
+		<br>
 
-		<br><br>
 		<script>
 
  			function readTextFile(file){
@@ -88,8 +86,9 @@
 			    }
 			    rawFile.send(null);
 			}	
-
-			// readTextFile("lastupdate.txt");	
+			readTextFile("lastupdate1.txt");
+			readTextFile("lastupdate2.txt");
+			document.write('<br>')
 			readTextFile("opentrades.txt");	
 
 			function updatePnlColors(){

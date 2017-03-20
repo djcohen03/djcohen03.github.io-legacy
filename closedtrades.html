@@ -4,20 +4,6 @@
 		<link rel="stylesheet" type="text/css" href="tablestyle.css">
 	    <title> History </title>
 
-	    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
-		<script>
-		  // Initialize Firebase
-		  var config = {
-		    apiKey: "AIzaSyBtq-xrmSjvE_SUk5JAhJEaH_-OFh1F34M",
-		    authDomain: "trading-notes.firebaseapp.com",
-		    databaseURL: "https://trading-notes.firebaseio.com",
-		    storageBucket: "trading-notes.appspot.com",
-		    messagingSenderId: "988955763587"
-		  };
-		  firebase.initializeApp(config);
-		</script>
-
-
 
 	    <script type="text/javascript">
 
@@ -104,7 +90,7 @@
 			    }
 			    rawFile.send(null);
 			}	
-
+			document.write('<br>')
 			readTextFile("lastupdate1.txt");
 			readTextFile("lastupdate2.txt");
 			document.write('<br>')
