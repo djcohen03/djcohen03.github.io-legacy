@@ -1,14 +1,16 @@
-<TABLE style="border: 1px solid #000000; border-collapse: collapse;" id="open" cellpadding="4" border="1" width="40%">
+<TABLE width="40%" id="open" border="1" cellpadding="4" style="border: 1px solid #000000; border-collapse: collapse;">
  <TR>
   <TH>Symbol</TH>
   <TH>Qty</TH>
   <TH>DTE</TH>
-  <TH>Pnl</TH>
+  <TH>Pnl Day</TH>
+  <TH>Open Pnl</TH>
  </TR>
  <TR>
   <TD align="center" class="Symbol" style="font-weight: bold">NUE</TD>
   <TD align="center" class="Qty">20</TD>
   <TD align="center" class="DTE">11</TD>
+  <TD align="center" class="pnl">390.00</TD>
   <TD align="center" class="pnl">60.00</TD>
  </TR>
  <TR>
@@ -16,11 +18,13 @@
   <TD align="center" class="Qty">1</TD>
   <TD align="center" class="DTE">60</TD>
   <TD align="center" class="pnl">5.00</TD>
+  <TD align="center" class="pnl">5.00</TD>
  </TR>
  <TR>
   <TD align="center" class="Symbol" style="font-weight: bold">SPY</TD>
   <TD align="center" class="Qty">25</TD>
   <TD align="center" class="DTE">32</TD>
+  <TD align="center" class="pnl">412.50</TD>
   <TD align="center" class="pnl">-25.00</TD>
  </TR>
 </TABLE>
