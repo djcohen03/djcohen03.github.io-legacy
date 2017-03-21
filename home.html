@@ -21,23 +21,18 @@
 	    </script>
    </head>
 	<body>
+
         <ul class='nav'>
             <li class='nav'><a  class='nav' href = "#" id='Home'>Home</a></li>
             <li class='nav'><a  class='nav' href = "opentrades.html">Open Trades</a></li>
             <li class='nav'><a  class='nav' href = "closedtrades.html">Closed Trades</a></li>
+            <li class='nav'><a class='nav' id='special' 
+		    	href='https://docs.google.com/spreadsheets/d/1OWzfmvTqRXbOv3x2ICLN64VhYuV2g5khbBYZtICWSzM/edit?ts=57e2c00f#gid=0'
+	    	target='_blank'>Open Trade Tracking</a></li>
         </ul>
 
 		<!-- MARK: Page Setup -->
 		<h1>Home</h1>
-		<br>
-
-		<a class='special' 
-		   href='https://docs.google.com/spreadsheets/d/1OWzfmvTqRXbOv3x2ICLN64VhYuV2g5khbBYZtICWSzM/edit?ts=57e2c00f#gid=0'
-		   target='_blank'>Open Trade Tracking</a>
-
-
-		<br>
-
 		<script>
 
  			function readTextFile(file){
@@ -59,7 +54,11 @@
 
 			document.write("<p id='lastupdate'>");
 			readTextFile("pnl.txt");
-			readTextFile("lastupdate2.txt");
+			document.write('<br>')
+			readTextFile("fees.txt");
+			readTextFile("lastupdate.txt");
+			document.write('</p>')
+			document.write('<br>')
 		</script>
 
 		<br>
