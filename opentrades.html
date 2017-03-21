@@ -61,12 +61,8 @@
         </ul>		
 
 		<!-- MARK: Page Setup -->
-		<h1>Open Trades</h1><br>
+		<h1>Open Trades</h1>
 		<!-- <button onclick="sortTable('historical',7,-1)">Sort</button> -->
-		<a class='special' 
-		   href='https://docs.google.com/spreadsheets/d/1OWzfmvTqRXbOv3x2ICLN64VhYuV2g5khbBYZtICWSzM/edit?ts=57e2c00f#gid=0'
-		   target='_blank'>Open Trade Tracking</a>
-		<br>
 
 		<script>
 
@@ -86,10 +82,13 @@
 			    }
 			    rawFile.send(null);
 			}	
-			readTextFile("lastupdate1.txt");
+			document.write("<p id='lastupdate'>");
+			readTextFile("pnl.txt");
 			readTextFile("lastupdate2.txt");
 			document.write('<br>')
 			readTextFile("opentrades.txt");	
+
+
 
 			function updatePnlColors(){
 				var pnl_cells = document.getElementsByClassName("pnl");
@@ -108,7 +107,11 @@
 
 
 		</script>
-
+		<br>
+		<a class='special' 
+		    	href='https://docs.google.com/spreadsheets/d/1OWzfmvTqRXbOv3x2ICLN64VhYuV2g5khbBYZtICWSzM/edit?ts=57e2c00f#gid=0'
+	    	target='_blank'>Open Trade Tracking</a>
+		<br>
 
 
 
