@@ -87,11 +87,13 @@
 			    }
 			    rawFile.send(null);
 			}	
-			document.write('<br><br>')
 			document.write("<p id='lastupdate'>");
+			readTextFile("pnl.txt");
+			document.write('<br>')
+			readTextFile("fees.txt");
 			readTextFile("lastupdate.txt");
-
-			document.write('<br></p>')
+			document.write('</p>')
+			document.write('<br>')
 
 			readTextFile("opentrades.txt");	
 
