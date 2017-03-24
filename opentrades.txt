@@ -1,4 +1,4 @@
-<TABLE id="open" cellpadding="4" width="40%" border="1" style="border: 1px solid #000000; border-collapse: collapse;">
+<TABLE width="40%" id="open" cellpadding="4" style="border: 1px solid #000000; border-collapse: collapse;" border="1">
  <TR>
   <TH>Symbol</TH>
   <TH>Qty</TH>
@@ -7,24 +7,24 @@
   <TH>Open Pnl</TH>
  </TR>
  <TR>
-  <TD class="Symbol" style="font-weight: bold" align="center">NUE</TD>
-  <TD class="Qty" align="center">20</TD>
-  <TD class="DTE" align="center">7</TD>
-  <TD class="pnl" align="center">630.00</TD>
-  <TD class="pnl" align="center">1,470.00</TD>
+  <TD align="center" style="font-weight: bold" class="Symbol">NUE</TD>
+  <TD align="center" class="Qty">20</TD>
+  <TD align="center" class="DTE">7</TD>
+  <TD align="center" class="pnl">630.00</TD>
+  <TD align="center" class="pnl">1,470.00</TD>
  </TR>
  <TR>
-  <TD class="Symbol" style="font-weight: bold" align="center">RUT</TD>
-  <TD class="Qty" align="center">1</TD>
-  <TD class="DTE" align="center">56</TD>
-  <TD class="pnl" align="center">92.50</TD>
-  <TD class="pnl" align="center">-52.50</TD>
+  <TD align="center" style="font-weight: bold" class="Symbol">RUT</TD>
+  <TD align="center" class="Qty">1</TD>
+  <TD align="center" class="DTE">56</TD>
+  <TD align="center" class="pnl">92.50</TD>
+  <TD align="center" class="pnl">-52.50</TD>
  </TR>
  <TR>
-  <TD class="Symbol" style="font-weight: bold" align="center">SPY</TD>
-  <TD class="Qty" align="center">25</TD>
-  <TD class="DTE" align="center">28</TD>
-  <TD class="pnl" align="center">-112.50</TD>
-  <TD class="pnl" align="center">850.00</TD>
+  <TD align="center" style="font-weight: bold" class="Symbol">SPY</TD>
+  <TD align="center" class="Qty">25</TD>
+  <TD align="center" class="DTE">28</TD>
+  <TD align="center" class="pnl">-112.50</TD>
+  <TD align="center" class="pnl">850.00</TD>
  </TR>
 </TABLE>
