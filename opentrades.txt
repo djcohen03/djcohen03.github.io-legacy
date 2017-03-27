@@ -1,4 +1,4 @@
-<TABLE style="border: 1px solid #000000; border-collapse: collapse;" cellpadding="4" id="open" border="1" width="40%">
+<TABLE width="40%" style="border: 1px solid #000000; border-collapse: collapse;" border="1" cellpadding="4" id="open">
  <TR>
   <TH>Symbol</TH>
   <TH>Qty</TH>
@@ -7,31 +7,31 @@
   <TH>Open Pnl</TH>
  </TR>
  <TR>
-  <TD style="font-weight: bold" class="Symbol" align="center">LITE</TD>
+  <TD class="Symbol" style="font-weight: bold" align="center">LITE</TD>
   <TD class="Qty" align="center">10</TD>
   <TD class="DTE" align="center">25</TD>
-  <TD class="pnl" align="center">0.00</TD>
-  <TD class="pnl" align="center">0.00</TD>
+  <TD class="pnl" align="center">25.00</TD>
+  <TD class="pnl" align="center">25.00</TD>
  </TR>
  <TR>
-  <TD style="font-weight: bold" class="Symbol" align="center">NUE</TD>
+  <TD class="Symbol" style="font-weight: bold" align="center">NUE</TD>
   <TD class="Qty" align="center">20</TD>
   <TD class="DTE" align="center">4</TD>
-  <TD class="pnl" align="center">-150.00</TD>
-  <TD class="pnl" align="center">740.00</TD>
+  <TD class="pnl" align="center">30.00</TD>
+  <TD class="pnl" align="center">920.00</TD>
  </TR>
  <TR>
-  <TD style="font-weight: bold" class="Symbol" align="center">RUT</TD>
+  <TD class="Symbol" style="font-weight: bold" align="center">RUT</TD>
   <TD class="Qty" align="center">1</TD>
   <TD class="DTE" align="center">53</TD>
-  <TD class="pnl" align="center">47.50</TD>
-  <TD class="pnl" align="center">-17.50</TD>
+  <TD class="pnl" align="center">67.50</TD>
+  <TD class="pnl" align="center">2.50</TD>
  </TR>
  <TR>
-  <TD style="font-weight: bold" class="Symbol" align="center">SPY</TD>
+  <TD class="Symbol" style="font-weight: bold" align="center">SPY</TD>
   <TD class="Qty" align="center">25</TD>
   <TD class="DTE" align="center">25</TD>
-  <TD class="pnl" align="center">437.50</TD>
-  <TD class="pnl" align="center">1,500.00</TD>
+  <TD class="pnl" align="center">412.50</TD>
+  <TD class="pnl" align="center">1,475.00</TD>
  </TR>
 </TABLE>
