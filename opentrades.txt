@@ -1,4 +1,4 @@
-<TABLE border="1" cellpadding="4" id="open" width="40%" style="border: 1px solid #000000; border-collapse: collapse;">
+<TABLE width="40%" style="border: 1px solid #000000; border-collapse: collapse;" cellpadding="4" id="open" border="1">
  <TR>
   <TH>Symbol</TH>
   <TH>Qty</TH>
@@ -7,38 +7,38 @@
   <TH>Open Pnl</TH>
  </TR>
  <TR>
-  <TD align="center" class="Symbol" style="font-weight: bold">FLT</TD>
-  <TD align="center" class="Qty">10</TD>
-  <TD align="center" class="DTE">42</TD>
-  <TD align="center" class="pnl">-150.00</TD>
-  <TD align="center" class="pnl">-400.00</TD>
+  <TD style="font-weight: bold" align="center" class="Symbol">FLT</TD>
+  <TD class="Qty" align="center">10</TD>
+  <TD class="DTE" align="center">42</TD>
+  <TD class="pnl" align="center">100.00</TD>
+  <TD class="pnl" align="center">-150.00</TD>
  </TR>
  <TR>
-  <TD align="center" class="Symbol" style="font-weight: bold">IWM</TD>
-  <TD align="center" class="Qty">15</TD>
-  <TD align="center" class="DTE">42</TD>
-  <TD align="center" class="pnl">-120.00</TD>
-  <TD align="center" class="pnl">-217.50</TD>
+  <TD style="font-weight: bold" align="center" class="Symbol">IWM</TD>
+  <TD class="Qty" align="center">15</TD>
+  <TD class="DTE" align="center">42</TD>
+  <TD class="pnl" align="center">37.50</TD>
+  <TD class="pnl" align="center">-60.00</TD>
  </TR>
  <TR>
-  <TD align="center" class="Symbol" style="font-weight: bold">LITE</TD>
-  <TD align="center" class="Qty">10</TD>
-  <TD align="center" class="DTE">14</TD>
-  <TD align="center" class="pnl">-75.00</TD>
-  <TD align="center" class="pnl">-200.00</TD>
+  <TD style="font-weight: bold" align="center" class="Symbol">LITE</TD>
+  <TD class="Qty" align="center">10</TD>
+  <TD class="DTE" align="center">14</TD>
+  <TD class="pnl" align="center">-175.00</TD>
+  <TD class="pnl" align="center">-300.00</TD>
  </TR>
  <TR>
-  <TD align="center" class="Symbol" style="font-weight: bold">RUT</TD>
-  <TD align="center" class="Qty">1</TD>
-  <TD align="center" class="DTE">42</TD>
-  <TD align="center" class="pnl">-65.00</TD>
-  <TD align="center" class="pnl">327.50</TD>
+  <TD style="font-weight: bold" align="center" class="Symbol">RUT</TD>
+  <TD class="Qty" align="center">1</TD>
+  <TD class="DTE" align="center">42</TD>
+  <TD class="pnl" align="center">62.50</TD>
+  <TD class="pnl" align="center">455.00</TD>
  </TR>
  <TR>
-  <TD align="center" class="Symbol" style="font-weight: bold">VMC</TD>
-  <TD align="center" class="Qty">10</TD>
-  <TD align="center" class="DTE">14</TD>
-  <TD align="center" class="pnl">-475.00</TD>
-  <TD align="center" class="pnl">315.00</TD>
+  <TD style="font-weight: bold" align="center" class="Symbol">VMC</TD>
+  <TD class="Qty" align="center">10</TD>
+  <TD class="DTE" align="center">14</TD>
+  <TD class="pnl" align="center">-850.00</TD>
+  <TD class="pnl" align="center">-60.00</TD>
  </TR>
 </TABLE>
