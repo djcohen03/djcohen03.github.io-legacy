@@ -1,4 +1,4 @@
-<TABLE cellpadding="4" style="border: 1px solid #000000; border-collapse: collapse;" id="open" border="1" width="40%">
+<TABLE style="border: 1px solid #000000; border-collapse: collapse;" cellpadding="4" id="open" width="40%" border="1">
  <TR>
   <TH>Symbol</TH>
   <TH>Qty</TH>
@@ -7,45 +7,45 @@
   <TH>Open Pnl</TH>
  </TR>
  <TR>
-  <TD align="center" style="font-weight: bold" class="Symbol">FLT</TD>
-  <TD align="center" class="Qty">10</TD>
-  <TD align="center" class="DTE">14</TD>
-  <TD align="center" class="pnl">650.00</TD>
-  <TD align="center" class="pnl">-1,075.00</TD>
+  <TD style="font-weight: bold" class="Symbol" align="center">FLT</TD>
+  <TD class="Qty" align="center">10</TD>
+  <TD class="DTE" align="center">10</TD>
+  <TD class="pnl" align="center">-1,300.00</TD>
+  <TD class="pnl" align="center">29.68178</TD>
  </TR>
  <TR>
-  <TD align="center" style="font-weight: bold" class="Symbol">LB</TD>
-  <TD align="center" class="Qty">15</TD>
-  <TD align="center" class="DTE">14</TD>
-  <TD align="center" class="pnl">-375.00</TD>
-  <TD align="center" class="pnl">37.50</TD>
+  <TD style="font-weight: bold" class="Symbol" align="center">LB</TD>
+  <TD class="Qty" align="center">15</TD>
+  <TD class="DTE" align="center">10</TD>
+  <TD class="pnl" align="center">-487.50</TD>
+  <TD class="pnl" align="center">-7.58089</TD>
  </TR>
  <TR>
-  <TD align="center" style="font-weight: bold" class="Symbol">SPY</TD>
-  <TD align="center" class="Qty">10</TD>
-  <TD align="center" class="DTE">28</TD>
-  <TD align="center" class="pnl">-290.00</TD>
-  <TD align="center" class="pnl">-280.00</TD>
+  <TD style="font-weight: bold" class="Symbol" align="center">SPY</TD>
+  <TD class="Qty" align="center">10</TD>
+  <TD class="DTE" align="center">24</TD>
+  <TD class="pnl" align="center">-310.00</TD>
+  <TD class="pnl" align="center">-113.86269</TD>
  </TR>
  <TR>
-  <TD align="center" style="font-weight: bold" class="Symbol">TMUS</TD>
-  <TD align="center" class="Qty">10</TD>
-  <TD align="center" class="DTE">14</TD>
-  <TD align="center" class="pnl">150.00</TD>
-  <TD align="center" class="pnl">360.00</TD>
+  <TD style="font-weight: bold" class="Symbol" align="center">TMUS</TD>
+  <TD class="Qty" align="center">10</TD>
+  <TD class="DTE" align="center">10</TD>
+  <TD class="pnl" align="center">505.00</TD>
+  <TD class="pnl" align="center">-24.16922</TD>
  </TR>
  <TR>
-  <TD align="center" style="font-weight: bold" class="Symbol">VEEV</TD>
-  <TD align="center" class="Qty">15</TD>
-  <TD align="center" class="DTE">14</TD>
-  <TD align="center" class="pnl">300.00</TD>
-  <TD align="center" class="pnl">795.00</TD>
+  <TD style="font-weight: bold" class="Symbol" align="center">VEEV</TD>
+  <TD class="Qty" align="center">15</TD>
+  <TD class="DTE" align="center">10</TD>
+  <TD class="pnl" align="center">420.00</TD>
+  <TD class="pnl" align="center">-54.08600</TD>
  </TR>
  <TR>
-  <TD align="center" style="font-weight: bold" class="Symbol">XLV</TD>
-  <TD align="center" class="Qty">20</TD>
-  <TD align="center" class="DTE">42</TD>
-  <TD align="center" class="pnl">-100.00</TD>
-  <TD align="center" class="pnl">-80.00</TD>
+  <TD style="font-weight: bold" class="Symbol" align="center">XLV</TD>
+  <TD class="Qty" align="center">20</TD>
+  <TD class="DTE" align="center">38</TD>
+  <TD class="pnl" align="center">10.00</TD>
+  <TD class="pnl" align="center">-15.89153</TD>
  </TR>
 </TABLE>
