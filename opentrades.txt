@@ -1,4 +1,4 @@
-<TABLE width="40%" style="border: 1px solid #000000; border-collapse: collapse;" cellpadding="4" id="open" border="1">
+<TABLE cellpadding="4" id="open" border="1" style="border: 1px solid #000000; border-collapse: collapse;" width="40%">
  <TR>
   <TH>Symbol</TH>
   <TH>Qty</TH>
@@ -7,31 +7,31 @@
   <TH>Open Pnl</TH>
  </TR>
  <TR>
-  <TD style="font-weight: bold" align="center" class="Symbol">CAR</TD>
-  <TD align="center" class="Qty">25</TD>
-  <TD align="center" class="DTE">16</TD>
-  <TD align="center" class="pnl">-2,500.00</TD>
-  <TD align="center" class="pnl">0.00</TD>
+  <TD class="Symbol" align="center" style="font-weight: bold">CAR</TD>
+  <TD class="Qty" align="center">25</TD>
+  <TD class="DTE" align="center">15</TD>
+  <TD class="pnl" align="center">-2,500.00</TD>
+  <TD class="pnl" align="center">62.50</TD>
  </TR>
  <TR>
-  <TD style="font-weight: bold" align="center" class="Symbol">LULU</TD>
-  <TD align="center" class="Qty">15</TD>
-  <TD align="center" class="DTE">2</TD>
-  <TD align="center" class="pnl">-3,000.00</TD>
-  <TD align="center" class="pnl">-30.00</TD>
+  <TD class="Symbol" align="center" style="font-weight: bold">LULU</TD>
+  <TD class="Qty" align="center">15</TD>
+  <TD class="DTE" align="center">1</TD>
+  <TD class="pnl" align="center">-3,000.00</TD>
+  <TD class="pnl" align="center">22.50</TD>
  </TR>
  <TR>
-  <TD style="font-weight: bold" align="center" class="Symbol">SPY</TD>
-  <TD align="center" class="Qty">10</TD>
-  <TD align="center" class="DTE">2</TD>
-  <TD align="center" class="pnl">-8,996.00</TD>
-  <TD align="center" class="pnl">380.00</TD>
+  <TD class="Symbol" align="center" style="font-weight: bold">SPY</TD>
+  <TD class="Qty" align="center">10</TD>
+  <TD class="DTE" align="center">1</TD>
+  <TD class="pnl" align="center">-8,996.00</TD>
+  <TD class="pnl" align="center">-845.00</TD>
  </TR>
  <TR>
-  <TD style="font-weight: bold" align="center" class="Symbol">XLV</TD>
-  <TD align="center" class="Qty">20</TD>
-  <TD align="center" class="DTE">16</TD>
-  <TD align="center" class="pnl">0.00</TD>
-  <TD align="center" class="pnl">-280.00</TD>
+  <TD class="Symbol" align="center" style="font-weight: bold">XLV</TD>
+  <TD class="Qty" align="center">20</TD>
+  <TD class="DTE" align="center">15</TD>
+  <TD class="pnl" align="center">0.00</TD>
+  <TD class="pnl" align="center">-840.00</TD>
  </TR>
 </TABLE>
