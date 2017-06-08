@@ -1,16 +1,9 @@
-<TABLE cellpadding="4" style="border: 1px solid #000000; border-collapse: collapse;" border="1" id="open" width="40%">
+<TABLE style="border: 1px solid #000000; border-collapse: collapse;" id="open" cellpadding="4" width="40%" border="1">
  <TR>
   <TH>Symbol</TH>
   <TH>Qty</TH>
   <TH>DTE</TH>
   <TH>Pnl Day</TH>
   <TH>Open Pnl</TH>
- </TR>
- <TR>
-  <TD align="center" class="Symbol" style="font-weight: bold">CAR</TD>
-  <TD align="center" class="Qty">25</TD>
-  <TD align="center" class="DTE">10</TD>
-  <TD align="center" class="pnl">-2,500.00</TD>
-  <TD align="center" class="pnl">125.00</TD>
  </TR>
 </TABLE>
