@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="tablestyle.css">
+	    <title> Open Trades </title>
+
+	    <script type="text/javascript">
+
+			function sortTable(tableid,col, asc){
+				var tbody = document.getElementById(tableid).tBodies[0];
+			    var rows = tbody.rows;
+			    var rlen = rows.length;
+			    var arr = new Array();
+			    var i, j, cells, clen;
+			    // fill the array with values from the table
+			    for(i = 0; i < rlen; i++)
+			    {
+			        cells = rows[i].cells;
+			        clen = cells.length;
+			        arr[i] = new Array();
+			      for(j = 0; j < clen; j++) { arr[i][j] = cells[j].innerHTML; }
+			    }
+			    // sort the array by the specified column number (col) and order (asc)
+			    arr.sort(function(a, b)
+			    {
+			        var retval=0;
+			        var fA,fB;
+			        if(col == 1 || col == 7){
+				        fA=parseFloat(a[col]);
+				        fB=parseFloat(b[col]);
+				    } else {
+				        fA=a[col];
+				        fB=b[col];
+				    }
+
+			        if(a[col] != b[col])
+			        {
+			            if((fA==a[col]) && (fB==b[col]) ){ retval=( fA > fB ) ? asc : -1*asc; } //numerical
+			            else { retval=(a[col] > b[col]) ? asc : -1*asc;}
+			        }
+			        return retval;      
+			    });
+			    for(var rowidx=0;rowidx<rlen;rowidx++)
+			    {
+			        for(var colidx=0;colidx<arr[rowidx].length;colidx++){ tbody.rows[rowidx].cells[colidx].innerHTML=arr[rowidx][colidx]; }
+			    }
+				updatePnlColors();
+			}
+
+
+
+		</script>
+
+
+	</head>
+	<body>
+	   <ul class='nav'>
+            <li class='nav'><a  class='nav' href = "home.html" id='Home'>Home</a></li>
+            <li class='nav'><a  class='nav' href = "#">Open Trades</a></li>
+            <li class='nav'><a  class='nav' href = "closedtrades.html">Closed Trades</a></li>
+           	<li class='nav'><a class='nav' id='special' 
+		    	href='https://docs.google.com/spreadsheets/d/1OWzfmvTqRXbOv3x2ICLN64VhYuV2g5khbBYZtICWSzM/edit?ts=57e2c00f#gid=0'
+	    	target='_blank'>Open Trade Tracking</a></li>
+
+		<br>
+        </ul>		
+
+		<!-- MARK: Page Setup -->
+		<h1>Open Trades</h1>
+		<!-- <button onclick="sortTable('historical',7,-1)">Sort</button> -->
+
+		<script>
+
+ 			function readTextFile(file){
+			    var rawFile = new XMLHttpRequest();
+			    rawFile.open("GET", file, false);
+			    rawFile.onreadystatechange = function ()
+			    {
+			        if(rawFile.readyState === 4)
+			        {
+			            if(rawFile.status === 200 || rawFile.status == 0)
+			            {
+			                var allText = rawFile.responseText;
+			                document.write(allText)
+			            }
+			        }
+			    }
+			    rawFile.send(null);
+			}	
+			document.write("<p id='lastupdate'>");
+			readTextFile("pnl.txt");
+			document.write('<br>')
+			readTextFile("fees.txt");
+			readTextFile("lastupdate.txt");
+			document.write('</p>')
+			document.write('<br>')
+
+			readTextFile("opentrades.txt");	
+
+
+
+			function updatePnlColors(){
+				var pnl_cells = document.getElementsByClassName("pnl");
+				var i;
+				var pnl;
+				for (i = 0; i < pnl_cells.length; i++) {
+				   	pnl = parseFloat(pnl_cells[i].innerHTML)
+				   	if(pnl > 0){
+					   	pnl_cells[i].style.color = "green";
+					} else {
+						pnl_cells[i].style.color = "red";
+					}
+				}
+			}
+			updatePnlColors();
+
+
+		</script>
+		<br>
+
+
+
+
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
