@@ -1,4 +1,4 @@
-<TABLE border="1" cellpadding="4" id="open" width="40%" style="border: 1px solid #000000; border-collapse: collapse;">
+<TABLE id="open" cellpadding="4" style="border: 1px solid #000000; border-collapse: collapse;" border="1" width="40%">
  <TR>
   <TH>Symbol</TH>
   <TH>Qty</TH>
