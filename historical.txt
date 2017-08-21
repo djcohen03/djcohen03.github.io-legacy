@@ -1,4 +1,4 @@
-<TABLE id="historical" width="90%" cellpadding="4" style="border: 1px solid #000000; border-collapse: collapse;" border="1">
+<TABLE style="border: 1px solid #000000; border-collapse: collapse;" width="90%" cellpadding="4" border="1" id="historical">
  <TR>
   <TH>Symbol</TH>
   <TH>N</TH>
@@ -12,951 +12,951 @@
   <TH>Amt Risked</TH>
  </TR>
  <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">NFLX</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Vertical Spread</TD>
-  <TD class="opened" align="center">Jul 19, 2017</TD>
-  <TD class="closed" align="center">Aug 18, 2017</TD>
-  <TD class="duration" align="center">30 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">25.3</TD>
-  <TD class="pnl" align="center">2325.0</TD>
-  <TD class="risk" align="center">-5175.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">RH</TD>
-  <TD class="n" align="center">-6</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jul 18, 2017</TD>
-  <TD class="closed" align="center">Aug 18, 2017</TD>
-  <TD class="duration" align="center">31 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">21.16</TD>
-  <TD class="pnl" align="center">900.0</TD>
-  <TD class="risk" align="center">2100.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">JPM</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Vertical Spread</TD>
-  <TD class="opened" align="center">Jul 17, 2017</TD>
-  <TD class="closed" align="center">Aug 18, 2017</TD>
-  <TD class="duration" align="center">32 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">18.44</TD>
-  <TD class="pnl" align="center">240.0</TD>
-  <TD class="risk" align="center">-2260.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">WFC</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Vertical Spread</TD>
-  <TD class="opened" align="center">Jul 17, 2017</TD>
-  <TD class="closed" align="center">Aug 18, 2017</TD>
-  <TD class="duration" align="center">32 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">25.16</TD>
-  <TD class="pnl" align="center">390.0</TD>
-  <TD class="risk" align="center">-3360.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jul 05, 2017</TD>
-  <TD class="closed" align="center">Aug 18, 2017</TD>
-  <TD class="duration" align="center">44 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">45.43</TD>
-  <TD class="pnl" align="center">1500.0</TD>
-  <TD class="risk" align="center">3000.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">NVDA</TD>
-  <TD class="n" align="center">-7</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jun 26, 2017</TD>
-  <TD class="closed" align="center">Jul 28, 2017</TD>
-  <TD class="duration" align="center">32 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">23.83</TD>
-  <TD class="pnl" align="center">623.0</TD>
-  <TD class="risk" align="center">2877.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">X</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jun 26, 2017</TD>
-  <TD class="closed" align="center">Jul 21, 2017</TD>
-  <TD class="duration" align="center">25 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">45.38</TD>
-  <TD class="pnl" align="center">585.0</TD>
-  <TD class="risk" align="center">1665.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">RAD</TD>
-  <TD class="n" align="center">20</TD>
-  <TD class="spread" align="center">Call</TD>
-  <TD class="opened" align="center">Jun 22, 2017</TD>
-  <TD class="closed" align="center">Jul 21, 2017</TD>
-  <TD class="duration" align="center">29 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">18.42</TD>
-  <TD class="pnl" align="center">-1020.0</TD>
-  <TD class="risk" align="center">1020.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
-  <TD class="n" align="center">-1</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jun 15, 2017</TD>
-  <TD class="closed" align="center">Jul 14, 2017</TD>
-  <TD class="duration" align="center">29 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">7.63</TD>
-  <TD class="pnl" align="center">542.0</TD>
-  <TD class="risk" align="center">1458.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">IRBT</TD>
-  <TD class="n" align="center">-5</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jun 15, 2017</TD>
-  <TD class="closed" align="center">Jul 03, 2017</TD>
-  <TD class="duration" align="center">18 Days</TD>
-  <TD class="management" align="center">Managed @ -216%</TD>
-  <TD class="fee" align="center">36.94</TD>
-  <TD class="pnl" align="center">-1345.0</TD>
-  <TD class="risk" align="center">1880.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">AMZN</TD>
-  <TD class="n" align="center">-2</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jun 15, 2017</TD>
-  <TD class="closed" align="center">Jul 14, 2017</TD>
-  <TD class="duration" align="center">29 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">10.41</TD>
-  <TD class="pnl" align="center">680.0</TD>
-  <TD class="risk" align="center">1320.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">XLV</TD>
-  <TD class="n" align="center">-20</TD>
-  <TD class="spread" align="center">Vertical Spread</TD>
-  <TD class="opened" align="center">Jun 05, 2017</TD>
-  <TD class="closed" align="center">Jun 16, 2017</TD>
-  <TD class="duration" align="center">11 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">31.92</TD>
-  <TD class="pnl" align="center">1000.0</TD>
-  <TD class="risk" align="center">-3000.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">CAR</TD>
-  <TD class="n" align="center">-25</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">May 30, 2017</TD>
-  <TD class="closed" align="center">Jun 16, 2017</TD>
-  <TD class="duration" align="center">17 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">72.36</TD>
-  <TD class="pnl" align="center">875.0</TD>
-  <TD class="risk" align="center">1625.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">LULU</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">May 30, 2017</TD>
-  <TD class="closed" align="center">Jun 02, 2017</TD>
-  <TD class="duration" align="center">3 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">45.39</TD>
-  <TD class="pnl" align="center">960.0</TD>
-  <TD class="risk" align="center">2040.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">LB</TD>
-  <TD class="n" align="center">15</TD>
-  <TD class="spread" align="center">Call</TD>
-  <TD class="opened" align="center">May 18, 2017</TD>
-  <TD class="closed" align="center">May 19, 2017</TD>
-  <TD class="duration" align="center">1 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">0.35</TD>
-  <TD class="pnl" align="center">-75.0</TD>
-  <TD class="risk" align="center">75.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">FLT</TD>
-  <TD class="n" align="center">10</TD>
-  <TD class="spread" align="center">Vertical Spread</TD>
-  <TD class="opened" align="center">May 09, 2017</TD>
-  <TD class="closed" align="center">May 19, 2017</TD>
-  <TD class="duration" align="center">10 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">18.52</TD>
-  <TD class="pnl" align="center">-3000.0</TD>
-  <TD class="risk" align="center">2000.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">TMUS</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Apr 26, 2017</TD>
-  <TD class="closed" align="center">May 19, 2017</TD>
-  <TD class="duration" align="center">23 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">31.99</TD>
-  <TD class="pnl" align="center">980.0</TD>
-  <TD class="risk" align="center">2020.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">VEEV</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Apr 24, 2017</TD>
-  <TD class="closed" align="center">May 19, 2017</TD>
-  <TD class="duration" align="center">25 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">45.49</TD>
-  <TD class="pnl" align="center">1845.0</TD>
-  <TD class="risk" align="center">5655.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">LB</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Apr 19, 2017</TD>
-  <TD class="closed" align="center">May 19, 2017</TD>
-  <TD class="duration" align="center">30 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">45.48</TD>
-  <TD class="pnl" align="center">1050.0</TD>
-  <TD class="risk" align="center">2700.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Apr 19, 2017</TD>
-  <TD class="closed" align="center">Jun 02, 2017</TD>
-  <TD class="duration" align="center">44 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">32.02</TD>
-  <TD class="pnl" align="center">2270.0</TD>
-  <TD class="risk" align="center">6730.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">LITE</TD>
-  <TD class="n" align="center">10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Apr 12, 2017</TD>
-  <TD class="closed" align="center">Apr 21, 2017</TD>
-  <TD class="duration" align="center">9 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">31.98</TD>
-  <TD class="pnl" align="center">-2020.0</TD>
-  <TD class="risk" align="center">-1980.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">IWM</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Apr 05, 2017</TD>
-  <TD class="closed" align="center">May 02, 2017</TD>
-  <TD class="duration" align="center">27 Days</TD>
-  <TD class="management" align="center">Managed @ 54%</TD>
-  <TD class="fee" align="center">90.94</TD>
-  <TD class="pnl" align="center">990.0</TD>
-  <TD class="risk" align="center">4185.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">FLT</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Apr 03, 2017</TD>
-  <TD class="closed" align="center">May 19, 2017</TD>
-  <TD class="duration" align="center">46 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">32.07</TD>
-  <TD class="pnl" align="center">1850.0</TD>
-  <TD class="risk" align="center">3150.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">VMC</TD>
-  <TD class="n" align="center">10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Mar 31, 2017</TD>
-  <TD class="closed" align="center">Apr 21, 2017</TD>
-  <TD class="duration" align="center">21 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">32.1</TD>
-  <TD class="pnl" align="center">-10420.0</TD>
-  <TD class="risk" align="center">1200.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">VMC</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Mar 27, 2017</TD>
-  <TD class="closed" align="center">Apr 21, 2017</TD>
-  <TD class="duration" align="center">25 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">31.99</TD>
-  <TD class="pnl" align="center">900.0</TD>
-  <TD class="risk" align="center">4100.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">LITE</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Mar 27, 2017</TD>
-  <TD class="closed" align="center">Apr 21, 2017</TD>
-  <TD class="duration" align="center">25 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">31.99</TD>
-  <TD class="pnl" align="center">950.0</TD>
-  <TD class="risk" align="center">4050.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
-  <TD class="n" align="center">-1</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Mar 20, 2017</TD>
-  <TD class="closed" align="center">Apr 21, 2017</TD>
-  <TD class="duration" align="center">32 Days</TD>
-  <TD class="management" align="center">Managed @ 50%</TD>
-  <TD class="fee" align="center">15.26</TD>
-  <TD class="pnl" align="center">1085.0</TD>
-  <TD class="risk" align="center">3835.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">NUE</TD>
-  <TD class="n" align="center">-20</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Mar 07, 2017</TD>
-  <TD class="closed" align="center">Mar 31, 2017</TD>
-  <TD class="duration" align="center">24 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">58.97</TD>
-  <TD class="pnl" align="center">1340.0</TD>
-  <TD class="risk" align="center">2660.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">ESPR</TD>
-  <TD class="n" align="center">-20</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Mar 03, 2017</TD>
-  <TD class="closed" align="center">Mar 17, 2017</TD>
-  <TD class="duration" align="center">14 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">91.02</TD>
-  <TD class="pnl" align="center">-2400.0</TD>
-  <TD class="risk" align="center">3100.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">LULU</TD>
-  <TD class="n" align="center">-40</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Feb 27, 2017</TD>
-  <TD class="closed" align="center">Mar 08, 2017</TD>
-  <TD class="duration" align="center">9 Days</TD>
-  <TD class="management" align="center">Managed @ 52%</TD>
-  <TD class="fee" align="center">225.87</TD>
-  <TD class="pnl" align="center">1040.0</TD>
-  <TD class="risk" align="center">6000.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">VMC</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Feb 27, 2017</TD>
-  <TD class="closed" align="center">Mar 15, 2017</TD>
-  <TD class="duration" align="center">16 Days</TD>
-  <TD class="management" align="center">Managed @ 79%</TD>
-  <TD class="fee" align="center">64.0</TD>
-  <TD class="pnl" align="center">1260.0</TD>
-  <TD class="risk" align="center">3420.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPXW</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Feb 23, 2017</TD>
-  <TD class="closed" align="center">Mar 08, 2017</TD>
-  <TD class="duration" align="center">13 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">32.0</TD>
-  <TD class="pnl" align="center">1250.0</TD>
-  <TD class="risk" align="center">8750.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">TMUS</TD>
-  <TD class="n" align="center">-25</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Feb 21, 2017</TD>
-  <TD class="closed" align="center">Mar 17, 2017</TD>
-  <TD class="duration" align="center">24 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">72.49</TD>
-  <TD class="pnl" align="center">1025.0</TD>
-  <TD class="risk" align="center">3975.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Feb 21, 2017</TD>
-  <TD class="closed" align="center">Mar 15, 2017</TD>
-  <TD class="duration" align="center">22 Days</TD>
-  <TD class="management" align="center">Managed @ 59%</TD>
-  <TD class="fee" align="center">63.95</TD>
-  <TD class="pnl" align="center">1020.0</TD>
-  <TD class="risk" align="center">8280.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
-  <TD class="n" align="center">15</TD>
-  <TD class="spread" align="center">Call</TD>
-  <TD class="opened" align="center">Feb 17, 2017</TD>
-  <TD class="opened" align="center">Feb 17, 2017</TD>
-  <TD class="duration" align="center">0 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">0.37</TD>
-  <TD class="pnl" align="center">-30.0</TD>
-  <TD class="risk" align="center">30.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">CTSH</TD>
-  <TD class="n" align="center">-1000</TD>
-  <TD class="spread" align="center">Stock</TD>
-  <TD class="opened" align="center">Feb 13, 2017</TD>
-  <TD class="closed" align="center">Feb 14, 2017</TD>
-  <TD class="duration" align="center">1 Days</TD>
-  <TD class="management" align="center">Managed</TD>
-  <TD class="fee" align="center">16.24</TD>
-  <TD class="pnl" align="center">-950.0</TD>
-  <TD class="risk" align="center">inf</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">CTSH</TD>
-  <TD class="n" align="center">10</TD>
-  <TD class="spread" align="center">Vertical Spread</TD>
-  <TD class="opened" align="center">Feb 09, 2017</TD>
-  <TD class="closed" align="center">Feb 10, 2017</TD>
-  <TD class="duration" align="center">1 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">18.5</TD>
-  <TD class="pnl" align="center">-900.0</TD>
-  <TD class="risk" align="center">1100.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
-  <TD class="n" align="center">-25</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Feb 07, 2017</TD>
-  <TD class="closed" align="center">Apr 03, 2017</TD>
-  <TD class="duration" align="center">55 Days</TD>
-  <TD class="management" align="center">Managed @ 74%</TD>
-  <TD class="fee" align="center">144.98</TD>
-  <TD class="pnl" align="center">1825.0</TD>
-  <TD class="risk" align="center">10050.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">CTSH</TD>
-  <TD class="n" align="center">-20</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Feb 07, 2017</TD>
-  <TD class="closed" align="center">Feb 10, 2017</TD>
-  <TD class="duration" align="center">3 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">58.99</TD>
-  <TD class="pnl" align="center">700.0</TD>
-  <TD class="risk" align="center">3300.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">AMZN</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Feb 02, 2017</TD>
-  <TD class="closed" align="center">Feb 03, 2017</TD>
-  <TD class="duration" align="center">1 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">56.61</TD>
-  <TD class="pnl" align="center">975.0</TD>
-  <TD class="risk" align="center">2775.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">FB</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jan 31, 2017</TD>
-  <TD class="closed" align="center">Feb 02, 2017</TD>
-  <TD class="duration" align="center">2 Days</TD>
-  <TD class="management" align="center">Managed @ 76%</TD>
-  <TD class="fee" align="center">112.82</TD>
-  <TD class="pnl" align="center">945.0</TD>
-  <TD class="risk" align="center">6270.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">CSX</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jan 24, 2017</TD>
-  <TD class="closed" align="center">Feb 15, 2017</TD>
-  <TD class="duration" align="center">22 Days</TD>
-  <TD class="management" align="center">Managed @ 41%</TD>
-  <TD class="fee" align="center">101.92</TD>
-  <TD class="pnl" align="center">720.0</TD>
-  <TD class="risk" align="center">5775.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
-  <TD class="n" align="center">-25</TD>
-  <TD class="spread" align="center">Vertical Spread</TD>
-  <TD class="opened" align="center">Jan 20, 2017</TD>
-  <TD class="closed" align="center">Feb 17, 2017</TD>
-  <TD class="duration" align="center">28 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">48.72</TD>
-  <TD class="pnl" align="center">1075.0</TD>
-  <TD class="risk" align="center">-11425.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
-  <TD class="n" align="center">-5</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jan 20, 2017</TD>
-  <TD class="closed" align="center">Feb 06, 2017</TD>
-  <TD class="duration" align="center">17 Days</TD>
-  <TD class="management" align="center">Managed @ 65%</TD>
-  <TD class="fee" align="center">43.95</TD>
-  <TD class="pnl" align="center">950.0</TD>
-  <TD class="risk" align="center">8550.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">DLTR</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jan 18, 2017</TD>
-  <TD class="closed" align="center">Feb 17, 2017</TD>
-  <TD class="duration" align="center">30 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">56.43</TD>
-  <TD class="pnl" align="center">750.0</TD>
-  <TD class="risk" align="center">3000.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">XLE</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jan 09, 2017</TD>
-  <TD class="closed" align="center">Feb 09, 2017</TD>
-  <TD class="duration" align="center">31 Days</TD>
-  <TD class="management" align="center">Managed @ 71%</TD>
-  <TD class="fee" align="center">101.91</TD>
-  <TD class="pnl" align="center">570.0</TD>
-  <TD class="risk" align="center">2205.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jan 06, 2017</TD>
-  <TD class="closed" align="center">Feb 17, 2017</TD>
-  <TD class="duration" align="center">42 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">56.45</TD>
-  <TD class="pnl" align="center">1320.0</TD>
-  <TD class="risk" align="center">6180.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
-  <TD class="n" align="center">-5</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jan 04, 2017</TD>
-  <TD class="closed" align="center">Jan 17, 2017</TD>
-  <TD class="duration" align="center">13 Days</TD>
-  <TD class="management" align="center">Managed @ 52%</TD>
-  <TD class="fee" align="center">50.94</TD>
-  <TD class="pnl" align="center">940.0</TD>
-  <TD class="risk" align="center">8220.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">LULU</TD>
-  <TD class="n" align="center">-20</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Jan 03, 2017</TD>
-  <TD class="closed" align="center">Jan 20, 2017</TD>
-  <TD class="duration" align="center">17 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">71.9</TD>
-  <TD class="pnl" align="center">1020.0</TD>
-  <TD class="risk" align="center">4980.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">NVDA</TD>
-  <TD class="n" align="center">-15</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Dec 30, 2016</TD>
-  <TD class="closed" align="center">Jan 09, 2017</TD>
-  <TD class="duration" align="center">10 Days</TD>
-  <TD class="management" align="center">Managed @ 51%</TD>
-  <TD class="fee" align="center">112.86</TD>
-  <TD class="pnl" align="center">795.0</TD>
-  <TD class="risk" align="center">5955.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
-  <TD class="n" align="center">-6</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Dec 24, 2016</TD>
-  <TD class="closed" align="center">Jan 03, 2017</TD>
-  <TD class="duration" align="center">10 Days</TD>
-  <TD class="management" align="center">Managed @ 32%</TD>
-  <TD class="fee" align="center">56.78</TD>
-  <TD class="pnl" align="center">876.0</TD>
-  <TD class="risk" align="center">9324.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">GPS</TD>
-  <TD class="n" align="center">-25</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Dec 24, 2016</TD>
-  <TD class="closed" align="center">Jan 20, 2017</TD>
-  <TD class="duration" align="center">27 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">87.38</TD>
-  <TD class="pnl" align="center">800.0</TD>
-  <TD class="risk" align="center">2950.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
-  <TD class="n" align="center">-20</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Dec 21, 2016</TD>
-  <TD class="closed" align="center">Jan 20, 2017</TD>
-  <TD class="duration" align="center">30 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">71.93</TD>
-  <TD class="pnl" align="center">960.0</TD>
-  <TD class="risk" align="center">3040.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
-  <TD class="n" align="center">-2</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Dec 16, 2016</TD>
-  <TD class="closed" align="center">Dec 23, 2016</TD>
-  <TD class="duration" align="center">7 Days</TD>
-  <TD class="management" align="center">Managed @ 61%</TD>
-  <TD class="fee" align="center">32.36</TD>
-  <TD class="pnl" align="center">316.0</TD>
-  <TD class="risk" align="center">1484.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Dec 16, 2016</TD>
-  <TD class="closed" align="center">Dec 30, 2016</TD>
-  <TD class="duration" align="center">14 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">40.96</TD>
-  <TD class="pnl" align="center">430.0</TD>
-  <TD class="risk" align="center">4570.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
-  <TD class="n" align="center">-20</TD>
-  <TD class="spread" align="center">Call</TD>
-  <TD class="opened" align="center">Dec 14, 2016</TD>
-  <TD class="closed" align="center">Dec 16, 2016</TD>
-  <TD class="duration" align="center">2 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">15.59</TD>
-  <TD class="pnl" align="center">5380.0</TD>
-  <TD class="risk" align="center">inf</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
-  <TD class="n" align="center">10</TD>
-  <TD class="spread" align="center">Call</TD>
-  <TD class="opened" align="center">Dec 05, 2016</TD>
-  <TD class="closed" align="center">Dec 16, 2016</TD>
-  <TD class="duration" align="center">11 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">35.46</TD>
-  <TD class="pnl" align="center">-5300.0</TD>
-  <TD class="risk" align="center">720.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
-  <TD class="n" align="center">-12</TD>
-  <TD class="spread" align="center">Put</TD>
-  <TD class="opened" align="center">Dec 02, 2016</TD>
-  <TD class="closed" align="center">Dec 16, 2016</TD>
-  <TD class="duration" align="center">14 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">19.28</TD>
-  <TD class="pnl" align="center">492.0</TD>
-  <TD class="risk" align="center">inf</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
-  <TD class="n" align="center">-20</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Nov 15, 2016</TD>
-  <TD class="closed" align="center">Dec 16, 2016</TD>
-  <TD class="duration" align="center">31 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">71.97</TD>
-  <TD class="pnl" align="center">1300.0</TD>
-  <TD class="risk" align="center">2700.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
-  <TD class="n" align="center">4</TD>
-  <TD class="spread" align="center">Calandar Spread</TD>
-  <TD class="opened" align="center">Nov 15, 2016</TD>
-  <TD class="closed" align="center">Dec 13, 2016</TD>
-  <TD class="duration" align="center">28 Days</TD>
-  <TD class="management" align="center">Managed @ -47%</TD>
-  <TD class="fee" align="center">32.34</TD>
-  <TD class="pnl" align="center">-2512.0</TD>
-  <TD class="risk" align="center">5272.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
-  <TD class="n" align="center">1000</TD>
-  <TD class="spread" align="center">Stock</TD>
-  <TD class="opened" align="center">Nov 07, 2016</TD>
-  <TD class="closed" align="center">Nov 08, 2016</TD>
-  <TD class="duration" align="center">1 Days</TD>
-  <TD class="management" align="center">Managed</TD>
-  <TD class="fee" align="center">34.62</TD>
-  <TD class="pnl" align="center">2950.0</TD>
-  <TD class="risk" align="center">inf</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
-  <TD class="n" align="center">3</TD>
-  <TD class="spread" align="center">Calandar Spread</TD>
-  <TD class="opened" align="center">Oct 11, 2016</TD>
-  <TD class="closed" align="center">Oct 18, 2016</TD>
-  <TD class="duration" align="center">7 Days</TD>
-  <TD class="management" align="center">Managed @ 9%</TD>
-  <TD class="fee" align="center">29.26</TD>
-  <TD class="pnl" align="center">282.0</TD>
-  <TD class="risk" align="center">2985.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">SPY</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Oct 11, 2016</TD>
-  <TD class="closed" align="center">Nov 04, 2016</TD>
-  <TD class="duration" align="center">24 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">40.98</TD>
-  <TD class="pnl" align="center">450.0</TD>
-  <TD class="risk" align="center">1550.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
-  <TD class="n" align="center">4</TD>
-  <TD class="spread" align="center">Calandar Spread</TD>
-  <TD class="opened" align="center">Sep 13, 2016</TD>
-  <TD class="closed" align="center">Sep 29, 2016</TD>
-  <TD class="duration" align="center">16 Days</TD>
-  <TD class="management" align="center">Managed @ 4%</TD>
-  <TD class="fee" align="center">32.34</TD>
-  <TD class="pnl" align="center">216.0</TD>
-  <TD class="risk" align="center">5244.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">EBAY</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Sep 12, 2016</TD>
-  <TD class="closed" align="center">Oct 21, 2016</TD>
-  <TD class="duration" align="center">39 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">40.96</TD>
-  <TD class="pnl" align="center">460.0</TD>
-  <TD class="risk" align="center">3540.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">RUT</TD>
-  <TD class="n" align="center">3</TD>
-  <TD class="spread" align="center">Calandar Spread</TD>
-  <TD class="opened" align="center">Aug 24, 2016</TD>
-  <TD class="closed" align="center">Sep 09, 2016</TD>
-  <TD class="duration" align="center">16 Days</TD>
-  <TD class="management" align="center">Managed @ 10%</TD>
-  <TD class="fee" align="center">29.26</TD>
-  <TD class="pnl" align="center">315.0</TD>
-  <TD class="risk" align="center">3084.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">CHD</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">May 19, 2016</TD>
-  <TD class="closed" align="center">Jul 15, 2016</TD>
-  <TD class="duration" align="center">57 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">41.08</TD>
-  <TD class="pnl" align="center">3400.0</TD>
-  <TD class="risk" align="center">6600.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">HRL</TD>
-  <TD class="n" align="center">-5</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Apr 25, 2016</TD>
-  <TD class="closed" align="center">Jun 17, 2016</TD>
-  <TD class="duration" align="center">53 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">25.49</TD>
-  <TD class="pnl" align="center">125.0</TD>
-  <TD class="risk" align="center">2375.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">TLT</TD>
-  <TD class="n" align="center">-5</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Apr 18, 2016</TD>
-  <TD class="closed" align="center">May 06, 2016</TD>
-  <TD class="duration" align="center">18 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">25.49</TD>
-  <TD class="pnl" align="center">150.0</TD>
-  <TD class="risk" align="center">2850.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">TLT</TD>
-  <TD class="n" align="center">20</TD>
-  <TD class="spread" align="center">Vertical Spread</TD>
-  <TD class="opened" align="center">Nov 19, 2015</TD>
-  <TD class="closed" align="center">Dec 18, 2015</TD>
-  <TD class="duration" align="center">29 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">41.32</TD>
-  <TD class="pnl" align="center">-380.0</TD>
-  <TD class="risk" align="center">9620.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">TLT</TD>
-  <TD class="n" align="center">-10</TD>
-  <TD class="spread" align="center">Iron Condor</TD>
-  <TD class="opened" align="center">Sep 21, 2015</TD>
-  <TD class="closed" align="center">Dec 18, 2015</TD>
-  <TD class="duration" align="center">88 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">132.61</TD>
-  <TD class="pnl" align="center">2260.0</TD>
-  <TD class="risk" align="center">3480.0</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">TBX</TD>
-  <TD class="n" align="center">200</TD>
-  <TD class="spread" align="center">Stock</TD>
-  <TD class="opened" align="center">Mar 27, 2015</TD>
-  <TD class="closed" align="center">Jun 09, 2015</TD>
-  <TD class="duration" align="center">74 Days</TD>
-  <TD class="management" align="center">Managed</TD>
-  <TD class="fee" align="center">10.12</TD>
-  <TD class="pnl" align="center">160.0</TD>
-  <TD class="risk" align="center">inf</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">VTV</TD>
-  <TD class="n" align="center">100</TD>
-  <TD class="spread" align="center">Stock</TD>
-  <TD class="opened" align="center">Feb 10, 2015</TD>
-  <TD class="closed" align="center">Oct 12, 2016</TD>
-  <TD class="duration" align="center">610 Days</TD>
-  <TD class="management" align="center">Managed</TD>
-  <TD class="fee" align="center">15.18</TD>
-  <TD class="pnl" align="center">219.49</TD>
-  <TD class="risk" align="center">inf</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">YHOO</TD>
-  <TD class="n" align="center">100</TD>
-  <TD class="spread" align="center">Stock</TD>
-  <TD class="opened" align="center">Jan 28, 2015</TD>
-  <TD class="closed" align="center">May 19, 2015</TD>
-  <TD class="duration" align="center">111 Days</TD>
-  <TD class="management" align="center">Managed</TD>
-  <TD class="fee" align="center">10.08</TD>
-  <TD class="pnl" align="center">-1038.0</TD>
-  <TD class="risk" align="center">inf</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">BDCG</TD>
-  <TD class="n" align="center">100</TD>
-  <TD class="spread" align="center">Stock</TD>
-  <TD class="opened" align="center">Mar 06, 2014</TD>
-  <TD class="closed" align="center">Mar 13, 2014</TD>
-  <TD class="duration" align="center">7 Days</TD>
-  <TD class="management" align="center">Managed</TD>
-  <TD class="fee" align="center">15.01</TD>
-  <TD class="pnl" align="center">-90.0</TD>
-  <TD class="risk" align="center">inf</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">FB</TD>
-  <TD class="n" align="center">-5</TD>
-  <TD class="spread" align="center">Call</TD>
-  <TD class="opened" align="center">Feb 20, 2014</TD>
-  <TD class="closed" align="center">Mar 22, 2014</TD>
-  <TD class="duration" align="center">30 Days</TD>
-  <TD class="management" align="center">Expired</TD>
-  <TD class="fee" align="center">14.89</TD>
-  <TD class="pnl" align="center">770.0</TD>
-  <TD class="risk" align="center">inf</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">VXX</TD>
-  <TD class="n" align="center">200</TD>
-  <TD class="spread" align="center">Stock</TD>
-  <TD class="opened" align="center">Feb 12, 2014</TD>
-  <TD class="closed" align="center">Oct 13, 2014</TD>
-  <TD class="duration" align="center">243 Days</TD>
-  <TD class="management" align="center">Managed</TD>
-  <TD class="fee" align="center">101.01</TD>
-  <TD class="pnl" align="center">-5645.84</TD>
-  <TD class="risk" align="center">inf</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">VXX</TD>
-  <TD class="n" align="center">200</TD>
-  <TD class="spread" align="center">Stock</TD>
-  <TD class="opened" align="center">Jan 15, 2014</TD>
-  <TD class="closed" align="center">Jan 29, 2014</TD>
-  <TD class="duration" align="center">14 Days</TD>
-  <TD class="management" align="center">Managed</TD>
-  <TD class="fee" align="center">10.17</TD>
-  <TD class="pnl" align="center">1054.0</TD>
-  <TD class="risk" align="center">inf</TD>
- </TR>
- <TR>
-  <TD style="font-weight: bold" align="center" class="symbol">TBF</TD>
-  <TD class="n" align="center">300</TD>
-  <TD class="spread" align="center">Stock</TD>
-  <TD class="opened" align="center">Jun 24, 2013</TD>
-  <TD class="closed" align="center">Nov 22, 2016</TD>
-  <TD class="duration" align="center">1247 Days</TD>
-  <TD class="management" align="center">Managed</TD>
-  <TD class="fee" align="center">40.4</TD>
-  <TD class="pnl" align="center">-4307.77</TD>
-  <TD class="risk" align="center">inf</TD>
+  <TD align="center" style="font-weight: bold" class="symbol">NFLX</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Vertical Spread</TD>
+  <TD align="center" class="opened">Jul 19, 2017</TD>
+  <TD align="center" class="closed">Aug 18, 2017</TD>
+  <TD align="center" class="duration">30 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">25.3</TD>
+  <TD align="center" class="pnl">2325.0</TD>
+  <TD align="center" class="risk">-5175.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">RH</TD>
+  <TD align="center" class="n">-6</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jul 18, 2017</TD>
+  <TD align="center" class="closed">Aug 18, 2017</TD>
+  <TD align="center" class="duration">31 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">21.16</TD>
+  <TD align="center" class="pnl">900.0</TD>
+  <TD align="center" class="risk">2100.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">JPM</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Vertical Spread</TD>
+  <TD align="center" class="opened">Jul 17, 2017</TD>
+  <TD align="center" class="closed">Aug 18, 2017</TD>
+  <TD align="center" class="duration">32 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">18.44</TD>
+  <TD align="center" class="pnl">240.0</TD>
+  <TD align="center" class="risk">-2260.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">WFC</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Vertical Spread</TD>
+  <TD align="center" class="opened">Jul 17, 2017</TD>
+  <TD align="center" class="closed">Aug 18, 2017</TD>
+  <TD align="center" class="duration">32 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">25.16</TD>
+  <TD align="center" class="pnl">390.0</TD>
+  <TD align="center" class="risk">-3360.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jul 05, 2017</TD>
+  <TD align="center" class="closed">Aug 18, 2017</TD>
+  <TD align="center" class="duration">44 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">45.43</TD>
+  <TD align="center" class="pnl">1500.0</TD>
+  <TD align="center" class="risk">3000.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">NVDA</TD>
+  <TD align="center" class="n">-7</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jun 26, 2017</TD>
+  <TD align="center" class="closed">Jul 28, 2017</TD>
+  <TD align="center" class="duration">32 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">23.83</TD>
+  <TD align="center" class="pnl">623.0</TD>
+  <TD align="center" class="risk">2877.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">X</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jun 26, 2017</TD>
+  <TD align="center" class="closed">Jul 21, 2017</TD>
+  <TD align="center" class="duration">25 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">45.38</TD>
+  <TD align="center" class="pnl">585.0</TD>
+  <TD align="center" class="risk">1665.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">RAD</TD>
+  <TD align="center" class="n">20</TD>
+  <TD align="center" class="spread">Call</TD>
+  <TD align="center" class="opened">Jun 22, 2017</TD>
+  <TD align="center" class="closed">Jul 21, 2017</TD>
+  <TD align="center" class="duration">29 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">18.42</TD>
+  <TD align="center" class="pnl">-1020.0</TD>
+  <TD align="center" class="risk">1020.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">IRBT</TD>
+  <TD align="center" class="n">-5</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jun 15, 2017</TD>
+  <TD align="center" class="closed">Jul 03, 2017</TD>
+  <TD align="center" class="duration">18 Days</TD>
+  <TD align="center" class="management">Managed @ -216%</TD>
+  <TD align="center" class="fee">36.94</TD>
+  <TD align="center" class="pnl">-1345.0</TD>
+  <TD align="center" class="risk">1880.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">AMZN</TD>
+  <TD align="center" class="n">-2</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jun 15, 2017</TD>
+  <TD align="center" class="closed">Jul 14, 2017</TD>
+  <TD align="center" class="duration">29 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">10.41</TD>
+  <TD align="center" class="pnl">680.0</TD>
+  <TD align="center" class="risk">1320.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">RUT</TD>
+  <TD align="center" class="n">-1</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jun 15, 2017</TD>
+  <TD align="center" class="closed">Jul 14, 2017</TD>
+  <TD align="center" class="duration">29 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">7.63</TD>
+  <TD align="center" class="pnl">542.0</TD>
+  <TD align="center" class="risk">1458.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">XLV</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Vertical Spread</TD>
+  <TD align="center" class="opened">Jun 05, 2017</TD>
+  <TD align="center" class="closed">Jun 16, 2017</TD>
+  <TD align="center" class="duration">11 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">31.92</TD>
+  <TD align="center" class="pnl">1000.0</TD>
+  <TD align="center" class="risk">-3000.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">CAR</TD>
+  <TD align="center" class="n">-25</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">May 30, 2017</TD>
+  <TD align="center" class="closed">Jun 16, 2017</TD>
+  <TD align="center" class="duration">17 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">72.36</TD>
+  <TD align="center" class="pnl">875.0</TD>
+  <TD align="center" class="risk">1625.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">LULU</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">May 30, 2017</TD>
+  <TD align="center" class="closed">Jun 02, 2017</TD>
+  <TD align="center" class="duration">3 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">45.39</TD>
+  <TD align="center" class="pnl">960.0</TD>
+  <TD align="center" class="risk">2040.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">LB</TD>
+  <TD align="center" class="n">15</TD>
+  <TD align="center" class="spread">Call</TD>
+  <TD align="center" class="opened">May 18, 2017</TD>
+  <TD align="center" class="closed">May 19, 2017</TD>
+  <TD align="center" class="duration">1 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">0.35</TD>
+  <TD align="center" class="pnl">-75.0</TD>
+  <TD align="center" class="risk">75.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">FLT</TD>
+  <TD align="center" class="n">10</TD>
+  <TD align="center" class="spread">Vertical Spread</TD>
+  <TD align="center" class="opened">May 09, 2017</TD>
+  <TD align="center" class="closed">May 19, 2017</TD>
+  <TD align="center" class="duration">10 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">18.52</TD>
+  <TD align="center" class="pnl">-3000.0</TD>
+  <TD align="center" class="risk">2000.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">TMUS</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Apr 26, 2017</TD>
+  <TD align="center" class="closed">May 19, 2017</TD>
+  <TD align="center" class="duration">23 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">31.99</TD>
+  <TD align="center" class="pnl">980.0</TD>
+  <TD align="center" class="risk">2020.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">VEEV</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Apr 24, 2017</TD>
+  <TD align="center" class="closed">May 19, 2017</TD>
+  <TD align="center" class="duration">25 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">45.49</TD>
+  <TD align="center" class="pnl">1845.0</TD>
+  <TD align="center" class="risk">5655.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Apr 19, 2017</TD>
+  <TD align="center" class="closed">Jun 02, 2017</TD>
+  <TD align="center" class="duration">44 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">32.02</TD>
+  <TD align="center" class="pnl">2270.0</TD>
+  <TD align="center" class="risk">6730.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">LB</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Apr 19, 2017</TD>
+  <TD align="center" class="closed">May 19, 2017</TD>
+  <TD align="center" class="duration">30 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">45.48</TD>
+  <TD align="center" class="pnl">1050.0</TD>
+  <TD align="center" class="risk">2700.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">LITE</TD>
+  <TD align="center" class="n">10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Apr 12, 2017</TD>
+  <TD align="center" class="closed">Apr 21, 2017</TD>
+  <TD align="center" class="duration">9 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">31.98</TD>
+  <TD align="center" class="pnl">-2020.0</TD>
+  <TD align="center" class="risk">-1980.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">IWM</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Apr 05, 2017</TD>
+  <TD align="center" class="closed">May 02, 2017</TD>
+  <TD align="center" class="duration">27 Days</TD>
+  <TD align="center" class="management">Managed @ 54%</TD>
+  <TD align="center" class="fee">90.94</TD>
+  <TD align="center" class="pnl">990.0</TD>
+  <TD align="center" class="risk">4185.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">FLT</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Apr 03, 2017</TD>
+  <TD align="center" class="closed">May 19, 2017</TD>
+  <TD align="center" class="duration">46 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">32.07</TD>
+  <TD align="center" class="pnl">1850.0</TD>
+  <TD align="center" class="risk">3150.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">VMC</TD>
+  <TD align="center" class="n">10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Mar 31, 2017</TD>
+  <TD align="center" class="closed">Apr 21, 2017</TD>
+  <TD align="center" class="duration">21 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">32.1</TD>
+  <TD align="center" class="pnl">-10420.0</TD>
+  <TD align="center" class="risk">1200.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">VMC</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Mar 27, 2017</TD>
+  <TD align="center" class="closed">Apr 21, 2017</TD>
+  <TD align="center" class="duration">25 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">31.99</TD>
+  <TD align="center" class="pnl">900.0</TD>
+  <TD align="center" class="risk">4100.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">LITE</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Mar 27, 2017</TD>
+  <TD align="center" class="closed">Apr 21, 2017</TD>
+  <TD align="center" class="duration">25 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">31.99</TD>
+  <TD align="center" class="pnl">950.0</TD>
+  <TD align="center" class="risk">4050.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">RUT</TD>
+  <TD align="center" class="n">-1</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Mar 20, 2017</TD>
+  <TD align="center" class="closed">Apr 21, 2017</TD>
+  <TD align="center" class="duration">32 Days</TD>
+  <TD align="center" class="management">Managed @ 50%</TD>
+  <TD align="center" class="fee">15.26</TD>
+  <TD align="center" class="pnl">1085.0</TD>
+  <TD align="center" class="risk">3835.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">NUE</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Mar 07, 2017</TD>
+  <TD align="center" class="closed">Mar 31, 2017</TD>
+  <TD align="center" class="duration">24 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">58.97</TD>
+  <TD align="center" class="pnl">1340.0</TD>
+  <TD align="center" class="risk">2660.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">ESPR</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Mar 03, 2017</TD>
+  <TD align="center" class="closed">Mar 17, 2017</TD>
+  <TD align="center" class="duration">14 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">91.02</TD>
+  <TD align="center" class="pnl">-2400.0</TD>
+  <TD align="center" class="risk">3100.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">VMC</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Feb 27, 2017</TD>
+  <TD align="center" class="closed">Mar 15, 2017</TD>
+  <TD align="center" class="duration">16 Days</TD>
+  <TD align="center" class="management">Managed @ 79%</TD>
+  <TD align="center" class="fee">64.0</TD>
+  <TD align="center" class="pnl">1260.0</TD>
+  <TD align="center" class="risk">3420.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">LULU</TD>
+  <TD align="center" class="n">-40</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Feb 27, 2017</TD>
+  <TD align="center" class="closed">Mar 08, 2017</TD>
+  <TD align="center" class="duration">9 Days</TD>
+  <TD align="center" class="management">Managed @ 52%</TD>
+  <TD align="center" class="fee">225.87</TD>
+  <TD align="center" class="pnl">1040.0</TD>
+  <TD align="center" class="risk">6000.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPXW</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Feb 23, 2017</TD>
+  <TD align="center" class="closed">Mar 08, 2017</TD>
+  <TD align="center" class="duration">13 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">32.0</TD>
+  <TD align="center" class="pnl">1250.0</TD>
+  <TD align="center" class="risk">8750.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">RUT</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Feb 21, 2017</TD>
+  <TD align="center" class="closed">Mar 15, 2017</TD>
+  <TD align="center" class="duration">22 Days</TD>
+  <TD align="center" class="management">Managed @ 59%</TD>
+  <TD align="center" class="fee">63.95</TD>
+  <TD align="center" class="pnl">1020.0</TD>
+  <TD align="center" class="risk">8280.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">TMUS</TD>
+  <TD align="center" class="n">-25</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Feb 21, 2017</TD>
+  <TD align="center" class="closed">Mar 17, 2017</TD>
+  <TD align="center" class="duration">24 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">72.49</TD>
+  <TD align="center" class="pnl">1025.0</TD>
+  <TD align="center" class="risk">3975.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
+  <TD align="center" class="n">15</TD>
+  <TD align="center" class="spread">Call</TD>
+  <TD align="center" class="opened">Feb 17, 2017</TD>
+  <TD align="center" class="opened">Feb 17, 2017</TD>
+  <TD align="center" class="duration">0 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">0.37</TD>
+  <TD align="center" class="pnl">-30.0</TD>
+  <TD align="center" class="risk">30.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">CTSH</TD>
+  <TD align="center" class="n">-1000</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Feb 13, 2017</TD>
+  <TD align="center" class="closed">Feb 14, 2017</TD>
+  <TD align="center" class="duration">1 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="fee">16.24</TD>
+  <TD align="center" class="pnl">-950.0</TD>
+  <TD align="center" class="risk">inf</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">CTSH</TD>
+  <TD align="center" class="n">10</TD>
+  <TD align="center" class="spread">Vertical Spread</TD>
+  <TD align="center" class="opened">Feb 09, 2017</TD>
+  <TD align="center" class="closed">Feb 10, 2017</TD>
+  <TD align="center" class="duration">1 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">18.5</TD>
+  <TD align="center" class="pnl">-900.0</TD>
+  <TD align="center" class="risk">1100.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
+  <TD align="center" class="n">-25</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Feb 07, 2017</TD>
+  <TD align="center" class="closed">Apr 03, 2017</TD>
+  <TD align="center" class="duration">55 Days</TD>
+  <TD align="center" class="management">Managed @ 74%</TD>
+  <TD align="center" class="fee">144.98</TD>
+  <TD align="center" class="pnl">1825.0</TD>
+  <TD align="center" class="risk">10050.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">CTSH</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Feb 07, 2017</TD>
+  <TD align="center" class="closed">Feb 10, 2017</TD>
+  <TD align="center" class="duration">3 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">58.99</TD>
+  <TD align="center" class="pnl">700.0</TD>
+  <TD align="center" class="risk">3300.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">AMZN</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Feb 02, 2017</TD>
+  <TD align="center" class="closed">Feb 03, 2017</TD>
+  <TD align="center" class="duration">1 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">56.61</TD>
+  <TD align="center" class="pnl">975.0</TD>
+  <TD align="center" class="risk">2775.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">FB</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jan 31, 2017</TD>
+  <TD align="center" class="closed">Feb 02, 2017</TD>
+  <TD align="center" class="duration">2 Days</TD>
+  <TD align="center" class="management">Managed @ 76%</TD>
+  <TD align="center" class="fee">112.82</TD>
+  <TD align="center" class="pnl">945.0</TD>
+  <TD align="center" class="risk">6270.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">CSX</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jan 24, 2017</TD>
+  <TD align="center" class="closed">Feb 15, 2017</TD>
+  <TD align="center" class="duration">22 Days</TD>
+  <TD align="center" class="management">Managed @ 41%</TD>
+  <TD align="center" class="fee">101.92</TD>
+  <TD align="center" class="pnl">720.0</TD>
+  <TD align="center" class="risk">5775.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">RUT</TD>
+  <TD align="center" class="n">-5</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jan 20, 2017</TD>
+  <TD align="center" class="closed">Feb 06, 2017</TD>
+  <TD align="center" class="duration">17 Days</TD>
+  <TD align="center" class="management">Managed @ 65%</TD>
+  <TD align="center" class="fee">43.95</TD>
+  <TD align="center" class="pnl">950.0</TD>
+  <TD align="center" class="risk">8550.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
+  <TD align="center" class="n">-25</TD>
+  <TD align="center" class="spread">Vertical Spread</TD>
+  <TD align="center" class="opened">Jan 20, 2017</TD>
+  <TD align="center" class="closed">Feb 17, 2017</TD>
+  <TD align="center" class="duration">28 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">48.72</TD>
+  <TD align="center" class="pnl">1075.0</TD>
+  <TD align="center" class="risk">-11425.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">DLTR</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jan 18, 2017</TD>
+  <TD align="center" class="closed">Feb 17, 2017</TD>
+  <TD align="center" class="duration">30 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">56.43</TD>
+  <TD align="center" class="pnl">750.0</TD>
+  <TD align="center" class="risk">3000.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">XLE</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jan 09, 2017</TD>
+  <TD align="center" class="closed">Feb 09, 2017</TD>
+  <TD align="center" class="duration">31 Days</TD>
+  <TD align="center" class="management">Managed @ 71%</TD>
+  <TD align="center" class="fee">101.91</TD>
+  <TD align="center" class="pnl">570.0</TD>
+  <TD align="center" class="risk">2205.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jan 06, 2017</TD>
+  <TD align="center" class="closed">Feb 17, 2017</TD>
+  <TD align="center" class="duration">42 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">56.45</TD>
+  <TD align="center" class="pnl">1320.0</TD>
+  <TD align="center" class="risk">6180.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">RUT</TD>
+  <TD align="center" class="n">-5</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jan 04, 2017</TD>
+  <TD align="center" class="closed">Jan 17, 2017</TD>
+  <TD align="center" class="duration">13 Days</TD>
+  <TD align="center" class="management">Managed @ 52%</TD>
+  <TD align="center" class="fee">50.94</TD>
+  <TD align="center" class="pnl">940.0</TD>
+  <TD align="center" class="risk">8220.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">LULU</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Jan 03, 2017</TD>
+  <TD align="center" class="closed">Jan 20, 2017</TD>
+  <TD align="center" class="duration">17 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">71.9</TD>
+  <TD align="center" class="pnl">1020.0</TD>
+  <TD align="center" class="risk">4980.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">NVDA</TD>
+  <TD align="center" class="n">-15</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Dec 30, 2016</TD>
+  <TD align="center" class="closed">Jan 09, 2017</TD>
+  <TD align="center" class="duration">10 Days</TD>
+  <TD align="center" class="management">Managed @ 51%</TD>
+  <TD align="center" class="fee">112.86</TD>
+  <TD align="center" class="pnl">795.0</TD>
+  <TD align="center" class="risk">5955.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">GPS</TD>
+  <TD align="center" class="n">-25</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Dec 24, 2016</TD>
+  <TD align="center" class="closed">Jan 20, 2017</TD>
+  <TD align="center" class="duration">27 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">87.38</TD>
+  <TD align="center" class="pnl">800.0</TD>
+  <TD align="center" class="risk">2950.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">RUT</TD>
+  <TD align="center" class="n">-6</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Dec 24, 2016</TD>
+  <TD align="center" class="closed">Jan 03, 2017</TD>
+  <TD align="center" class="duration">10 Days</TD>
+  <TD align="center" class="management">Managed @ 32%</TD>
+  <TD align="center" class="fee">56.78</TD>
+  <TD align="center" class="pnl">876.0</TD>
+  <TD align="center" class="risk">9324.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Dec 21, 2016</TD>
+  <TD align="center" class="closed">Jan 20, 2017</TD>
+  <TD align="center" class="duration">30 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">71.93</TD>
+  <TD align="center" class="pnl">960.0</TD>
+  <TD align="center" class="risk">3040.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">RUT</TD>
+  <TD align="center" class="n">-2</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Dec 16, 2016</TD>
+  <TD align="center" class="closed">Dec 23, 2016</TD>
+  <TD align="center" class="duration">7 Days</TD>
+  <TD align="center" class="management">Managed @ 61%</TD>
+  <TD align="center" class="fee">32.36</TD>
+  <TD align="center" class="pnl">316.0</TD>
+  <TD align="center" class="risk">1484.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Dec 16, 2016</TD>
+  <TD align="center" class="closed">Dec 30, 2016</TD>
+  <TD align="center" class="duration">14 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">40.96</TD>
+  <TD align="center" class="pnl">430.0</TD>
+  <TD align="center" class="risk">4570.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Call</TD>
+  <TD align="center" class="opened">Dec 14, 2016</TD>
+  <TD align="center" class="closed">Dec 16, 2016</TD>
+  <TD align="center" class="duration">2 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">15.59</TD>
+  <TD align="center" class="pnl">5380.0</TD>
+  <TD align="center" class="risk">inf</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
+  <TD align="center" class="n">10</TD>
+  <TD align="center" class="spread">Call</TD>
+  <TD align="center" class="opened">Dec 05, 2016</TD>
+  <TD align="center" class="closed">Dec 16, 2016</TD>
+  <TD align="center" class="duration">11 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">35.46</TD>
+  <TD align="center" class="pnl">-5300.0</TD>
+  <TD align="center" class="risk">720.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
+  <TD align="center" class="n">-12</TD>
+  <TD align="center" class="spread">Put</TD>
+  <TD align="center" class="opened">Dec 02, 2016</TD>
+  <TD align="center" class="closed">Dec 16, 2016</TD>
+  <TD align="center" class="duration">14 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">19.28</TD>
+  <TD align="center" class="pnl">492.0</TD>
+  <TD align="center" class="risk">inf</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
+  <TD align="center" class="n">-20</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Nov 15, 2016</TD>
+  <TD align="center" class="closed">Dec 16, 2016</TD>
+  <TD align="center" class="duration">31 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">71.97</TD>
+  <TD align="center" class="pnl">1300.0</TD>
+  <TD align="center" class="risk">2700.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">RUT</TD>
+  <TD align="center" class="n">4</TD>
+  <TD align="center" class="spread">Calandar Spread</TD>
+  <TD align="center" class="opened">Nov 15, 2016</TD>
+  <TD align="center" class="closed">Dec 13, 2016</TD>
+  <TD align="center" class="duration">28 Days</TD>
+  <TD align="center" class="management">Managed @ -47%</TD>
+  <TD align="center" class="fee">32.34</TD>
+  <TD align="center" class="pnl">-2512.0</TD>
+  <TD align="center" class="risk">5272.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
+  <TD align="center" class="n">1000</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Nov 07, 2016</TD>
+  <TD align="center" class="closed">Nov 08, 2016</TD>
+  <TD align="center" class="duration">1 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="fee">34.62</TD>
+  <TD align="center" class="pnl">2950.0</TD>
+  <TD align="center" class="risk">inf</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">RUT</TD>
+  <TD align="center" class="n">3</TD>
+  <TD align="center" class="spread">Calandar Spread</TD>
+  <TD align="center" class="opened">Oct 11, 2016</TD>
+  <TD align="center" class="closed">Oct 18, 2016</TD>
+  <TD align="center" class="duration">7 Days</TD>
+  <TD align="center" class="management">Managed @ 9%</TD>
+  <TD align="center" class="fee">29.26</TD>
+  <TD align="center" class="pnl">282.0</TD>
+  <TD align="center" class="risk">2985.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">SPY</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Oct 11, 2016</TD>
+  <TD align="center" class="closed">Nov 04, 2016</TD>
+  <TD align="center" class="duration">24 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">40.98</TD>
+  <TD align="center" class="pnl">450.0</TD>
+  <TD align="center" class="risk">1550.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">RUT</TD>
+  <TD align="center" class="n">4</TD>
+  <TD align="center" class="spread">Calandar Spread</TD>
+  <TD align="center" class="opened">Sep 13, 2016</TD>
+  <TD align="center" class="closed">Sep 29, 2016</TD>
+  <TD align="center" class="duration">16 Days</TD>
+  <TD align="center" class="management">Managed @ 4%</TD>
+  <TD align="center" class="fee">32.34</TD>
+  <TD align="center" class="pnl">216.0</TD>
+  <TD align="center" class="risk">5244.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">EBAY</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Sep 12, 2016</TD>
+  <TD align="center" class="closed">Oct 21, 2016</TD>
+  <TD align="center" class="duration">39 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">40.96</TD>
+  <TD align="center" class="pnl">460.0</TD>
+  <TD align="center" class="risk">3540.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">RUT</TD>
+  <TD align="center" class="n">3</TD>
+  <TD align="center" class="spread">Calandar Spread</TD>
+  <TD align="center" class="opened">Aug 24, 2016</TD>
+  <TD align="center" class="closed">Sep 09, 2016</TD>
+  <TD align="center" class="duration">16 Days</TD>
+  <TD align="center" class="management">Managed @ 10%</TD>
+  <TD align="center" class="fee">29.26</TD>
+  <TD align="center" class="pnl">315.0</TD>
+  <TD align="center" class="risk">3084.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">CHD</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">May 19, 2016</TD>
+  <TD align="center" class="closed">Jul 15, 2016</TD>
+  <TD align="center" class="duration">57 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">41.08</TD>
+  <TD align="center" class="pnl">3400.0</TD>
+  <TD align="center" class="risk">6600.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">HRL</TD>
+  <TD align="center" class="n">-5</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Apr 25, 2016</TD>
+  <TD align="center" class="closed">Jun 17, 2016</TD>
+  <TD align="center" class="duration">53 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">25.49</TD>
+  <TD align="center" class="pnl">125.0</TD>
+  <TD align="center" class="risk">2375.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">TLT</TD>
+  <TD align="center" class="n">-5</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Apr 18, 2016</TD>
+  <TD align="center" class="closed">May 06, 2016</TD>
+  <TD align="center" class="duration">18 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">25.49</TD>
+  <TD align="center" class="pnl">150.0</TD>
+  <TD align="center" class="risk">2850.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">TLT</TD>
+  <TD align="center" class="n">20</TD>
+  <TD align="center" class="spread">Vertical Spread</TD>
+  <TD align="center" class="opened">Nov 19, 2015</TD>
+  <TD align="center" class="closed">Dec 18, 2015</TD>
+  <TD align="center" class="duration">29 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">41.32</TD>
+  <TD align="center" class="pnl">-380.0</TD>
+  <TD align="center" class="risk">9620.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">TLT</TD>
+  <TD align="center" class="n">-10</TD>
+  <TD align="center" class="spread">Iron Condor</TD>
+  <TD align="center" class="opened">Sep 21, 2015</TD>
+  <TD align="center" class="closed">Dec 18, 2015</TD>
+  <TD align="center" class="duration">88 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">132.61</TD>
+  <TD align="center" class="pnl">2260.0</TD>
+  <TD align="center" class="risk">3480.0</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">TBX</TD>
+  <TD align="center" class="n">200</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Mar 27, 2015</TD>
+  <TD align="center" class="closed">Jun 09, 2015</TD>
+  <TD align="center" class="duration">74 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="fee">10.12</TD>
+  <TD align="center" class="pnl">160.0</TD>
+  <TD align="center" class="risk">inf</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">VTV</TD>
+  <TD align="center" class="n">100</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Feb 10, 2015</TD>
+  <TD align="center" class="closed">Oct 12, 2016</TD>
+  <TD align="center" class="duration">610 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="fee">15.18</TD>
+  <TD align="center" class="pnl">219.49</TD>
+  <TD align="center" class="risk">inf</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">YHOO</TD>
+  <TD align="center" class="n">100</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Jan 28, 2015</TD>
+  <TD align="center" class="closed">May 19, 2015</TD>
+  <TD align="center" class="duration">111 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="fee">10.08</TD>
+  <TD align="center" class="pnl">-1038.0</TD>
+  <TD align="center" class="risk">inf</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">BDCG</TD>
+  <TD align="center" class="n">100</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Mar 06, 2014</TD>
+  <TD align="center" class="closed">Mar 13, 2014</TD>
+  <TD align="center" class="duration">7 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="fee">15.01</TD>
+  <TD align="center" class="pnl">-90.0</TD>
+  <TD align="center" class="risk">inf</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">FB</TD>
+  <TD align="center" class="n">-5</TD>
+  <TD align="center" class="spread">Call</TD>
+  <TD align="center" class="opened">Feb 20, 2014</TD>
+  <TD align="center" class="closed">Mar 22, 2014</TD>
+  <TD align="center" class="duration">30 Days</TD>
+  <TD align="center" class="management">Expired</TD>
+  <TD align="center" class="fee">14.89</TD>
+  <TD align="center" class="pnl">770.0</TD>
+  <TD align="center" class="risk">inf</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">VXX</TD>
+  <TD align="center" class="n">200</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Feb 12, 2014</TD>
+  <TD align="center" class="closed">Oct 13, 2014</TD>
+  <TD align="center" class="duration">243 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="fee">101.01</TD>
+  <TD align="center" class="pnl">-5645.84</TD>
+  <TD align="center" class="risk">inf</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">VXX</TD>
+  <TD align="center" class="n">200</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Jan 15, 2014</TD>
+  <TD align="center" class="closed">Jan 29, 2014</TD>
+  <TD align="center" class="duration">14 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="fee">10.17</TD>
+  <TD align="center" class="pnl">1054.0</TD>
+  <TD align="center" class="risk">inf</TD>
+ </TR>
+ <TR>
+  <TD align="center" style="font-weight: bold" class="symbol">TBF</TD>
+  <TD align="center" class="n">300</TD>
+  <TD align="center" class="spread">Stock</TD>
+  <TD align="center" class="opened">Jun 24, 2013</TD>
+  <TD align="center" class="closed">Nov 22, 2016</TD>
+  <TD align="center" class="duration">1247 Days</TD>
+  <TD align="center" class="management">Managed</TD>
+  <TD align="center" class="fee">40.4</TD>
+  <TD align="center" class="pnl">-4307.77</TD>
+  <TD align="center" class="risk">inf</TD>
  </TR>
 </TABLE>
